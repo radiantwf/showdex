@@ -18,34 +18,34 @@
 
   "battle": {
     "gen": {
-      "aria": "Generation Selector",
-      "optionAria": "Switch to Generation {{gen}}",
-      "locked": "Switching the gen with Pokémon in the calc will open a <strong>new</strong>, <strong>blank</strong> $t(common:products.honkdex_one).",
-      "friendlyLabel": "Gen {{gen}}"
+      "aria": "世代选择器",
+      "optionAria": "切换到世代 {{gen}}",
+      "locked": "在计算器中切换世代将打开一个<strong>新的</strong>，<strong>空白的</strong> $t(common:products.honkdex_one)。",
+      "friendlyLabel": "第{{gen}}世代 "
     },
 
     "name": {
-      "hint": "name this $t(common:products.honk_one) to save this $t(common:products.honk_one)",
-      "dupe": "Copy of {{name}}",
-      "friends": "friends"
+      "hint": "命名这个 $t(common:products.honk_one) 以保存这个 $t(common:products.honk_one)",
+      "dupe": "复制 {{name}}",
+      "friends": "朋友"
     },
-
+    
     "format": {
-      "aria": "Battle Format Selector",
+      "aria": "战斗规则选择器",
       "hint": "???",
-      "empty": "No Formats"
+      "empty": "没有规则"
     },
-
+    
     "save": {
       "unsaved": "$t(common:labels.save)",
       "saving": "$t(common:labels.saving)...",
-      "savedRecently": "Now $t(common:labels.saved)",
-      "savedAgo": "$t(common:labels.saved) {{ago}} ago"
+      "savedRecently": "$t(common:labels.saved)",
+      "savedAgo": "$t(common:labels.saved) {{ago}} 之前"
+      }
+    },
+    
+    "sideControls": {
+      "activeLabel": "$t(common:labels.active)",
+      "dupeLabel": "复制"
     }
-  },
-
-  "sideControls": {
-    "activeLabel": "$t(common:labels.active)",
-    "dupeLabel": "Dupe"
-  }
 }

@@ -168,8 +168,8 @@
           "tooltip": "如果空间允许，将作为右侧的面板标签打开。否则，打开标签将填满屏幕。只要战斗的标签是打开的，就会进行同步。<br /><br />推荐给 <em>左右面板</em> 用户。"
         },
         "overlay": {
-          "label": "战斗覆盖",
-          "tooltip": "作为战斗聊天的覆盖层打开。初始隐藏，直到你在战斗控制中点击 <em>打开 $t(common:products.calcdex_one)</em>。<br /><br />一旦战斗关闭，嵌入的 $t(common:products.calcdex_one) 将从内存中清除，此时不能从 $t(common:products.hellodex_one) 重新打开。<br /><br />推荐给 <em>单面板</em> 用户或者那些在玩游戏时闲逛聊天室的用户。"
+          "label": "覆盖战斗信息",
+          "tooltip": "作为战斗信息栏的覆盖层打开。初始隐藏，直到你在战斗控制中点击 <em>打开 $t(common:products.calcdex_one)</em>。<br /><br />一旦战斗关闭，嵌入的 $t(common:products.calcdex_one) 将从内存中清除，此时不能从 $t(common:products.hellodex_one) 重新打开。<br /><br />推荐给 <em>单面板</em> 用户或者那些在玩游戏时闲逛聊天室的用户。"
         },
         "showdown": {
           "label": "自动",
@@ -289,8 +289,8 @@
     },
 
     "prioritizeUsageStats": {
-      "label": "优先应用惯用配置",
-      "tooltip": "优先应用<em>Showdown惯用</em>配置，如果当前非随机格式可用，应用于你的对手（或观战玩家）的宝可梦。<br /><br />否则，将应用最接近匹配规则的配置。"
+      "label": "优先使用惯用配置",
+      "tooltip": "非随机规则，你的对手（或观战玩家）的宝可梦优先使用<em>Showdown惯用</em>配置（若可用）。<br /><br />否则，将应用最接近匹配规则的配置。"
     },
 
     "autoImportTeamSheets": {
