@@ -32,4 +32,17 @@ export const ShowdexLocaleBundles: ShowdexLocaleBundle[] = [
     updated: '2024-01-28T10:19:06.819Z',
     disabled: false,
   },
+  {
+    id: 'i18n.zh-cn',
+    ext: 'json',
+    tag: 'locale',
+    name: '(i18n)',
+    label: 'ZH-CN',
+    locale: 'zh-cn',
+    author: 'RadiantWF, ChatGPT & Google Translate',
+    description: '(i18n)',
+    created: '2024-01-08T16:46:10.432Z',
+    updated: '2024-01-28T10:19:06.819Z',
+    disabled: false,
+  },
 ];
