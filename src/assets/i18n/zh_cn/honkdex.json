@@ -1,8 +1,8 @@
 {
   "--meta": {
     "name": "honkdex",
-    "version": "1.0.1",
-    "locale": "en",
+    "version": "1.0.0",
+    "locale": "zh-cn",
     "created": "2024-01-08T15:45:10.164Z",
     "updated": "2024-01-28T06:47:04.448Z"
   },

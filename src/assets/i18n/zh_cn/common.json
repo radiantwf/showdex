@@ -2,11 +2,15 @@
   "--meta": {
     "name": "common",
     "version": "1.0.0",
-    "locale": "en",
-    "language": "English",
-    "authors": ["Keith Choison <keith@tize.io>"],
-    "created": "2024-01-05T12:18:35.813Z",
-    "updated": "2024-01-26T18:57:41.117Z",
+    "locale": "zh-cn",
+    "language": "Chinese",
+    "authors": [
+      "RadiantWf",
+      "ChatGPT-4",
+      "Google Translate"
+    ],
+    "created": "2024-01-08T16:46:10.432Z",
+    "updated": "2024-01-26T18:57:52.893Z",
     "built": "<-- auto-filled; do not edit -->"
   },
 
@@ -28,22 +32,22 @@
   },
 
   "time": {
-    "millisecond_one": "ms",
-    "millisecond_other": "ms",
-    "second_one": "second",
-    "second_other": "seconds",
-    "minute_one": "minute",
-    "minute_other": "minutes",
-    "hour_one": "hour",
-    "hour_other": "hours",
-    "day_one": "day",
-    "day_other": "days",
-    "week_one": "week",
-    "week_other": "weeks",
-    "month_one": "month",
-    "month_other": "months",
-    "year_one": "year",
-    "year_other": "years"
+    "millisecond_one": "毫秒",
+    "millisecond_other": "毫秒",
+    "second_one": "秒",
+    "second_other": "秒",
+    "minute_one": "分钟",
+    "minute_other": "分钟",
+    "hour_one": "小时",
+    "hour_other": "消失",
+    "day_one": "日",
+    "day_other": "日",
+    "week_one": "星期",
+    "week_other": "星期",
+    "month_one": "月",
+    "month_other": "月",
+    "year_one": "年",
+    "year_other": "年"
   },
 
   "labels": {
@@ -102,19 +106,19 @@
     "redo": "Redo",
     "remove": "Remove",
     "reset": "Reset",
-    "save": "Save",
-    "saved": "Saved",
-    "saving": "Saving",
-    "setting_one": "Setting",
-    "setting_other": "Settings",
+    "save": "保存",
+    "saved": "已保存",
+    "saving": "保存中",
+    "setting_one": "设置",
+    "setting_other": "设置",
     "show": "Show",
     "spectate": "Spectate",
     "spectating": "Spectating",
     "stop": "Stop",
     "undo": "Undo",
     "update": "Update",
-    "upload": "Upload",
-    "uploading": "Uploading",
+    "upload": "上传",
+    "uploading": "上传中",
     "view": "View"
   }
 }
