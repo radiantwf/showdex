@@ -8,17 +8,17 @@
   },
 
   "abilities": {
-    "noability_one": "No Ability",
-    "noability_other": "No Abilities"
+    "noability_one": "无特性",
+    "noability_other": "无特性"
   },
 
   "abilityAliases": {
-    "qdrive": "Quark Drive"
+    "qdrive": "夸克充能"
   },
 
   "items": {
-    "noitem_one": "No Item",
-    "noitem_other": "No Items"
+    "noitem_one": "无道具",
+    "noitem_other": "无道具"
   },
 
   "itemAliases": {
@@ -31,8 +31,8 @@
   },
 
   "moves": {
-    "nomove_one": "No Move",
-    "nomove_other": "No Moves"
+    "nomove_one": "无招式",
+    "nomove_other": "无招式"
   },
 
   "moveAliases": {
@@ -108,14 +108,14 @@
   },
 
   "species": {
-    "nopokemon": "No Pokémon",
-    "missingno": "MissingNo."
+    "nopokemon": "无宝可梦",
+    "missingno": "缺失编号"
   },
 
   "speciesAliases": {
-    "steveneel": "Eelektross",
-    "ttar": "Tyranitar",
-    "ttarmega": "Tyranitar-Mega"
+    "steveneel": "麻麻鳗鱼王",
+    "ttar": "班基拉斯",
+    "ttarmega": "Mega班基拉斯"
   },
 
   "stats": {
@@ -147,9 +147,9 @@
   },
 
   "headers": {
-    "ability_one": "Ability",
-    "ability_other": "Abilities",
-    "abilities": "Abilities",
+    "ability_one": "特性",
+    "ability_other": "特性",
+    "abilities": "特性",
     "ag": "AG",
     "all": "$t(common:labels.all)",
     "belowduu": "Below DUU",
@@ -166,25 +166,25 @@
     "favorites": "Favorites",
     "field": "Field",
     "formes": "Formes",
-    "hiddenability": "Hidden Ability",
+    "hiddenability": "隐藏特性",
     "hiddenpower": "Hidden Power",
     "illegalresults": "Illegal",
     "inherited": "Inherited",
-    "item_one": "Item",
-    "item_other": "Items",
-    "items": "Items",
+    "item_one": "道具",
+    "item_other": "道具",
+    "items": "道具",
     "lc": "LC",
     "learnset": "Learnset",
     "legal": "Legal",
-    "level_one": "Level",
-    "level_other": "Levels",
+    "level_one": "等级",
+    "level_other": "等级",
     "maxmoves": "$t(pokedex:ultimates.dmax.2)",
-    "move_one": "Move",
-    "move_other": "Moves",
+    "move_one": "招式",
+    "move_other": "招式",
     "moves": "Moves",
     "mythical": "Mythical",
-    "nature_one": "Nature",
-    "nature_other": "Natures",
+    "nature_one": "性格",
+    "nature_other": "性格",
     "neutral": "Neutral",
     "new": "New",
     "nfesnotinahighertier": "NFEs Not in a Higher Tier",
@@ -216,13 +216,13 @@
     "spread_other": "Spreads",
     "stat_one": "Stat",
     "stat_other": "Stats",
-    "teratype_one": "Tera Type",
-    "teratype_other": "Tera Types",
-    "terrain": "Terrain",
+    "teratype_one": "太晶属性",
+    "teratype_other": "太晶属性",
+    "terrain": "场地",
     "traced": "Traced",
     "transformed": "Transformed",
-    "type_one": "Type",
-    "type_other": "Types",
+    "type_one": "属性",
+    "type_other": "属性",
     "uber": "Ubers",
     "unviableabilities": "Unviable Abilities",
     "usage": "Usage",
@@ -239,31 +239,31 @@
   },
 
   "types": {
-    "bug": ["Bug", "BUG", "BUG", "BUG"],
-    "dark": ["Dark", "DARK", "DARK", "DRK"],
-    "dragon": ["Dragon", "DRAGON", "DRGN", "DRG"],
-    "electric": ["Electric", "ELECTR", "ELCR", "ELC"],
-    "fairy": ["Fairy", "FAIRY", "FARY", "FRY"],
-    "fighting": ["Fighting", "FIGHT", "FGHT", "FGT"],
-    "fire": ["Fire", "FIRE", "FIRE", "FRE"],
-    "flying": ["Flying", "FLYING", "FLY", "FLY"],
-    "ghost": ["Ghost", "GHOST", "GHST", "GST"],
-    "grass": ["Grass", "GRASS", "GRSS", "GRS"],
-    "ground": ["Ground", "GROUND", "GRND", "GND"],
-    "ice": ["Ice", "ICE", "ICE", "ICE"],
-    "normal": ["Normal", "NORMAL", "NRML", "NRM"],
-    "poison": ["Poison", "POISON", "PSN", "PSN"],
-    "psychic": ["Psychic", "PSYCH", "PSYC", "PSY"],
-    "rock": ["Rock", "ROCK", "ROCK", "RCK"],
-    "steel": ["Steel", "STEEL", "STL", "STL"],
-    "stellar": ["Stellar", "STELLR", "STLR", "SLR"],
-    "unknown": ["Unknown", "???", "???", "???"],
-    "water": ["Water", "WATER", "WATR", "WTR"]
+    "bug": ["虫", "虫", "虫", "虫"],
+    "dark": ["恶", "恶", "恶", "恶"],
+    "dragon": ["龙", "龙", "龙", "龙"],
+    "electric": ["电", "电", "电", "电"],
+    "fairy": ["妖精", "妖精", "妖", "妖"],
+    "fighting": ["格斗", "格斗", "格", "格"],
+    "fire": ["火", "火", "火", "火"],
+    "flying": ["飞行", "飞行", "飞", "飞"],
+    "ghost": ["幽灵", "幽灵", "鬼", "鬼"],
+    "grass": ["草", "草", "草", "草"],
+    "ground": ["地面", "地面", "地", "地"],
+    "ice": ["冰", "冰", "冰", "冰"],
+    "normal": ["一般", "一般", "普", "普"],
+    "poison": ["毒", "毒", "毒", "毒"],
+    "psychic": ["超能", "超能", "超", "超"],
+    "rock": ["岩石", "岩石", "岩", "岩"],
+    "steel": ["钢", "钢", "钢", "钢"],
+    "stellar": ["星晶", "星晶", "星", "星"],
+    "unknown": ["未知", "???", "???", "???"],
+    "water": ["水", "水", "水", "水"]
   },
 
   "effects": {
     "bestowed": "Bestowed",
-    "consumed": "Consumed",
+    "consumed": "混乱",
     "disturbed": "Disturbed",
     "eaten": "Eaten",
     "flung": "Flung",
@@ -293,102 +293,102 @@
 
   "weather": {
     "hail": {
-      "label": "Hail",
-      "shortDesc": "For 5 turns (8 w/ Icy Rock), -6% HP (non-$t(pokedex:types.ice.0), non-Ice Body/Magic Guard/Overcoat/Snow Cloak)."
+      "label": "冰雹",
+      "shortDesc": "持续5回合（8回合带冰冷岩石），-6% HP（非$t(pokedex:types.ice.0)，非Ice Body/Magic Guard/Overcoat/Snow Cloak）。"
     },
     "harshsunshine": {
-      "label": "Intense Sun",
-      "shortDesc": "Until switch-out, $t(pokedex:types.fire.0) 1.5{{times}}, $t(pokedex:types.water.0) 0{{times}} (non-Air Lock/Cloud Nine)."
+      "label": "大日照",
+      "shortDesc": "直到下场，$t(pokedex:types.fire.0) 1.5{{times}}，$t(pokedex:types.water.0) 0{{times}}（非Air Lock/Cloud Nine）。"
     },
     "heavyrain": {
-      "label": "Heavy Rain",
-      "shortDesc": "Until switch-out, $t(pokedex:types.water.0) 1.5{{times}}, $t(pokedex:types.fire.0) 0{{times}} (non-Air Lock/Cloud Nine)."
+      "label": "大雨",
+      "shortDesc": "直到下场，$t(pokedex:types.water.0) 1.5{{times}}，$t(pokedex:types.fire.0) 0{{times}}（非Air Lock/Cloud Nine）。"
     },
     "rain": {
-      "label": "Rain",
-      "shortDesc": "For 5 turns (8 w/ Damp Rock), $t(pokedex:types.water.0) 1.5{{times}}, $t(pokedex:types.fire.0) 0.5{{times}}."
+      "label": "下雨",
+      "shortDesc": "持续5回合（8回合带潮湿岩石），$t(pokedex:types.water.0) 1.5{{times}}，$t(pokedex:types.fire.0) 0.5{{times}}。"
     },
     "sand": {
-      "label": "Sand",
-      "shortDesc": "For 5 turns (8 w/ Smooth Rock), $t(pokedex:stats.spd.1) 1.5{{times}} ($t(pokedex:types.rock.0) only), -6% $t(pokedex:stats.hp.1) (non-$t(pokedex:types.ground.0)/$t(pokedex:types.rock.0)/$t(pokedex:types.steel.0), non-Magic Guard/Overcoat/Sand Force/Sand Rush/Sand Veil)."
+      "label": "沙尘暴",
+      "shortDesc": "持续5回合（8回合带沙沙岩石），$t(pokedex:stats.spd.1) 1.5{{times}}（仅$t(pokedex:types.rock.0)），-6% $t(pokedex:stats.hp.1)（非$t(pokedex:types.ground.0)/$t(pokedex:types.rock.0)/$t(pokedex:types.steel.0)，非Magic Guard/Overcoat/Sand Force/Sand Rush/Sand Veil）。"
     },
     "snow": {
-      "label": "Snow",
-      "shortDesc": "For 5 turns (8 w/ Icy Rock), $t(pokedex:stats.def.1) 1.5{{times}} ($t(pokedex:types.ice.0) only)."
+      "label": "下雪",
+      "shortDesc": "持续5回合（8回合带冰冷岩石），$t(pokedex:stats.def.1) 1.5{{times}}（仅$t(pokedex:types.ice.0)）。"
     },
     "strongwinds": {
-      "label": "Strong Winds",
-      "shortDesc": "Until switch-out, no $t(pokedex:types.flying.0) weaknesses."
+      "label": "乱流",
+      "shortDesc": "直到下场，没有$t(pokedex:types.flying.0)弱点。"
     },
     "sun": {
-      "label": "Sun",
-      "shortDesc": "For 5 turns (8 w/ Heat Rock), $t(pokedex:types.fire.0) 1.5{{times}}, $t(pokedex:types.water.0) 0.5{{times}}."
+      "label": "大晴天",
+      "shortDesc": "持续5回合（8回合带炽热岩石），$t(pokedex:types.fire.0) 1.5{{times}}，$t(pokedex:types.water.0) 0.5{{times}}。"
     }
   },
 
   "terrain": {
     "electric": {
-      "label": "Electric",
-      "shortDesc": "For 5 turns, $t(pokedex:types.electric.0) 1.3{{times}} (grounded), can't sleep."
+      "label": "电气场地",
+      "shortDesc": "持续5回合，$t(pokedex:types.electric.0) 1.3{{times}} (地面上的宝可梦)，不会陷入异常瞌睡、睡眠状态。"
     },
     "grassy": {
-      "label": "Grassy",
-      "shortDesc": "For 5 turns, $t(pokedex:types.grass.0) 1.3{{times}} (grounded), Bulldoze/Earthquake/Magnitude 0.5{{times}}, +6% $t(pokedex:stats.hp.1)."
+      "label": "青草场地",
+      "shortDesc": "持续5回合，$t(pokedex:types.grass.0) 1.3{{times}} (地面上的宝可梦)，重踏/地震/震级 0.5{{times}}，+6% $t(pokedex:stats.hp.1)。"
     },
     "misty": {
-      "label": "Misty",
-      "shortDesc": "For 5 turns, $t(pokedex:types.dragon.0) 0.5{{times}} (grounded), can't status."
+      "label": "薄雾场地",
+      "shortDesc": "持续5回合，$t(pokedex:types.dragon.0) 0.5{{times}} (地面上的宝可梦)，不会陷入异常状态。"
     },
     "psychic": {
-      "label": "Psychic",
-      "shortDesc": "For 5 turns, $t(pokedex:types.psychic.0) 1.3{{times}} (grounded), no priority."
+      "label": "精神场地",
+      "shortDesc": "持续5回合，$t(pokedex:types.psychic.0) 1.3{{times}} (地面上的宝可梦)，无法对对手使出先制技能。"
     }
   },
 
   "ultimates": {
-    "gmax": ["Gigantamax", "Gigantamax", "Gmax"],
-    "dmax": ["Dynamax", "Dynamax", "Max"],
-    "mega": ["Mega-Evolution", "Mega-Evolve", "Mega"],
-    "tera": ["Terastallization", "Terastallize", "Tera"],
+    "gmax": ["超极巨化", "超极巨化", "超极巨化"],
+    "dmax": ["极巨化", "极巨化", "极巨化"],
+    "mega": ["Mega-进化", "Mega-进化", "Mega"],
+    "tera": ["太晶化", "太晶化", "太晶"],
     "z": ["Z-Power", "Z-Power", "Z"]
   },
 
   "gens": {
     "rb": {
       "label": "RBY",
-      "shortDesc": "Red/Blue/Yellow"
+      "shortDesc": "红/蓝/黄"
     },
     "gs": {
       "label": "GSC",
-      "shortDesc": "Gold/Silver/Crystal"
+      "shortDesc": "金/银/水晶"
     },
     "rs": {
       "label": "ADV",
-      "shortDesc": "Ruby/Sapphire/Emerald (Advance) + FireRed/LeafGreen (FRLG)"
+      "shortDesc": "红宝石/蓝宝石/绿宝石 + 火红/叶绿",
     },
     "dp": {
       "label": "DPP",
-      "shortDesc": "Diamond/Pearl/Platinum + HeartGold/SoulSilver (HGSS)"
+      "shortDesc": "钻石/珍珠/白金 + 心金/魂银"
     },
     "bw": {
       "label": "B/W",
-      "shortDesc": "Black/White + Black 2/White 2 (B2W2)"
+      "shortDesc": "黑/白 + 黑2/白2"
     },
     "xy": {
       "label": "X/Y",
-      "shortDesc": "X/Y + Omega Ruby/Alpha Sapphire (ORAS)"
+      "shortDesc": "X/Y + Ω红/α蓝"
     },
     "sm": {
       "label": "S/M",
-      "shortDesc": "Sun/Moon + Ultra Sun/Ultra Moon (USUM) + Let's Go, Pikachu!/Eevee! (LGPE)"
+      "shortDesc": "太阳/月亮 + 究极之月/究极之日 + Let's Go, 皮卡丘/伊布"
     },
     "ss": {
       "label": "S/S",
-      "shortDesc": "Sword/Shield + Brilliant Diamond/Shining Pearl (BDSP)"
+      "shortDesc": "剑/盾 + 晶灿钻石/明亮珍珠"
     },
     "sv": {
       "label": "S/V",
-      "shortDesc": "Scarlet/Violet"
+      "shortDesc": "朱/紫"
     }
   }
 }
