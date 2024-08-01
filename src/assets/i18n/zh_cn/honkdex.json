@@ -3,8 +3,8 @@
     "name": "honkdex",
     "version": "1.0.0",
     "locale": "zh-cn",
-    "created": "2024-01-08T15:45:10.164Z",
-    "updated": "2024-01-28T06:47:04.448Z"
+    "created": "2024-04-18T12:29:07.229+0800",
+    "updated": "2024-04-18T12:29:07.229+0800"
   },
 
   "contextMenu": {
@@ -29,13 +29,13 @@
       "dupe": "复制 {{name}}",
       "friends": "朋友"
     },
-    
+
     "format": {
       "aria": "战斗规则选择器",
       "hint": "???",
       "empty": "没有规则"
     },
-    
+
     "save": {
       "unsaved": "$t(common:labels.save)",
       "saving": "$t(common:labels.saving)...",
@@ -43,7 +43,7 @@
       "savedAgo": "$t(common:labels.saved) {{ago}} 之前"
       }
     },
-    
+
     "sideControls": {
       "activeLabel": "$t(common:labels.active)",
       "dupeLabel": "复制"
