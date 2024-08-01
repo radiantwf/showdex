@@ -41,8 +41,8 @@ export const ShowdexLocaleBundles: ShowdexLocaleBundle[] = [
     locale: 'zh_cn',
     author: 'RadiantWF, ChatGPT & Google Translate',
     desc: '(i18n)',
-    created: '2024-4-18T16:46:10.432Z',
-    updated: '2024-01-28T10:19:06.819Z',
+    created: '2024-04-18T12:29:07.229+0800',
+    updated: '2024-08-01T14:34:01.046+0800',
     disabled: false,
   },
 ];
