@@ -1,10 +1,10 @@
 {
   "--meta": {
     "name": "hellodex",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "locale": "zh-cn",
-    "created": "2024-01-05T12:29:07.229Z",
-    "updated": "2024-01-28T01:34:01.046Z"
+    "created": "2024-04-18T12:29:07.229+0800",
+    "updated": "2024-08-01T14:34:01.046+0800"
   },
 
   "contextMenu": {
@@ -100,7 +100,7 @@
 
     "paypal": {
       "name": "PayPal",
-      "description": "所有的捐款都是<em>一次性</em>的贡献，使你有资格获得最低$t(patronage.patreon.name)等级的福利，不包括给予活跃承诺的福利。请访问我们的$t(patronage.patreon.name)了解具体的福利。",
+      "description": "所有的捐款都是<em>一次性</em>的贡献，使你有资格获得最低$t(patronage.patreon.name)等级的福利，不包括给予活跃承诺的福利。请访问我们的$t(patronage.patreon.name)了解具体的福利。<em>{{date}}更新。</em>",
       "action": {
         "aria": "通过$t(patronage.paypal.name)捐款",
         "label": "<strong>通过</strong><strong>$t(patronage.paypal.name)</strong>捐款"
@@ -109,7 +109,7 @@
 
     "patreon": {
       "name": "Patreon",
-      "description": "所有$t(patronage.patreon.name)级别都是<em>每月</em>的捐款，使你有资格获得比<em>一次性</em>捐款更多的福利。请访问我们的$t(patronage.patreon.name)了解更多详情。Batteries不包括在内。",
+      "description": "所有$t(patronage.patreon.name)级别都是<em>每月</em>的捐款，使你有资格获得比<em>一次性</em>捐款更多的福利。请访问我们的$t(patronage.patreon.name)了解更多详情。Batteries不包括在内。<em>{{date}}更新。</em>",
       "defaultAction": {
         "aria": "成为一名赞助者",
         "label": "<strong>成为</strong>一名<strong>赞助者</strong>"

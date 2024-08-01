@@ -3,8 +3,8 @@
     "name": "calcdex",
     "version": "1.0.0",
     "locale": "zh-cn",
-    "created": "2024-01-07T16:00:56.179Z",
-    "updated": "2024-01-28T10:19:16.522Z"
+    "created": "2024-04-18T12:29:07.229+0800",
+    "updated": "2024-08-01T14:34:01.046+0800"
   },
 
   "contextMenu": {
@@ -37,7 +37,7 @@
       "activeTooltip": "<strong>手动</strong>选择宝可梦",
       "inactiveTooltip": "<strong>自动</strong>选择宝可梦"
     },
-    
+
     "party": {
       "aria": "选择{{pokemon}}",
       "contextMenu": {
@@ -99,9 +99,14 @@
         "autoLabel": "$t(common:labels.auto)",
         "importLabel": "$t(common:labels.import)",
         "exportLabel": "$t(common:labels.export)",
+        "exportMultiLabel": "$t(common:labels.all)",
         "importTooltip": "Import PokéPaste from Clipboard",
         "importedBadge": "$t(common:labels.imported)",
+        "importedMultiBadge": "$t(common:labels.imported) {{count}}",
+        "exportMultiTooltip_one": "$t(common:labels.export) {{count}} set",
+        "exportMultiTooltip_other": "$t(common:labels.export) {{count}} sets",
         "exportedBadge": "$t(common:labels.copied)!",
+        "exportedMultiBadge": "$t(common:labels.copied) {{count}}",
         "malformedBadge": "语法错误",
         "mismatchedBadge": "不匹配",
         "failedBadge": "$t(common:labels.failed)"
@@ -155,6 +160,7 @@
       "nhko": "KO %",
       "na": "$t(common:labels.na)",
       "immune": "免疫",
+      "failure": "失败",
       "copiedBadge": "$t(common:labels.copied)!",
 
       "tera": {
@@ -170,7 +176,7 @@
         "activeTooltip": "停用 <strong>$t(pokedex:ultimates.z.0)</strong>",
         "inactiveTooltip": "激活 <strong>$t(pokedex:ultimates.z.0)</strong>"
       },
-      
+
       "dmax": {
         "label": "{{ultimate}}",
         "activeTooltip": "停用 <strong>{{ultimate}}</strong>",
@@ -186,7 +192,7 @@
         "inactiveTooltip": "打开 <strong>招式编辑器</strong>",
         "resetLabel": "$t(common:labels.reset)",
         "resetTooltip": "重置 <strong>{{move}}</strong> 为默认",
-      
+
         "faintCounter": {
           "aria": "Fallen Allies Count for {{pokemon}}",
           "label": "Fallen",
@@ -203,7 +209,7 @@
           "activeTooltip": "停用 <strong>{{move}}</strong>",
           "inactiveTooltip": "激活 <strong>{{move}}</strong>"
         },
-        
+
         "stellar": {
           "label": "$t(pokedex:types.stellar.0)",
           "activeTooltip": "停用 <strong>$t(pokedex:types.stellar.0) STAB</strong>",
@@ -218,6 +224,7 @@
 
         "bp": {
           "aria": "{{move}} $t(pokedex:stats.bp.0) Override for {{pokemon}}",
+          "hitAria": "{{move}} Hit {{hit}} of {{hits}} $t(pokedex:stats.bp.0) Override for {{pokemon}}",
           "label": "{{ultimate}}$t(pokedex:stats.bp.1)"
         }
       },
@@ -232,6 +239,10 @@
         "aria": "Move Slot {{count}} for {{pokemon}}",
         "hint": "--",
         "empty": "$t(pokedex:moves.nomove_other)"
+      },
+
+      "failureReasons": {
+        "rbyRecovery": "由于第一代游戏中的一个BUG，如果恢复招式使用时，失去的 $t(pokedex:stats.hp.1) 除以 256 的余数为 255，则恢复招式将会失败。"
       }
     },
 

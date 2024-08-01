@@ -1,10 +1,10 @@
 {
   "--meta": {
     "name": "pokedex",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "locale": "zh-cn",
-    "created": "2024-01-05T11:35:50.967Z",
-    "updated": "2024-01-17T19:11:45.649Z"
+    "created": "2024-04-18T12:29:07.229+0800",
+    "updated": "2024-08-01T14:34:01.046+0800"
   },
 
   "abilities": {
@@ -93,7 +93,6 @@
     "impish": "淘气",
     "jolly": "爽朗",
     "lax": "乐天",
-    "hasty": "急躁",
     "lonely": "怕寂寞",
     "mild": "慢吞吞",
     "modest": "内敛",
@@ -114,6 +113,7 @@
   },
 
   "speciesAliases": {
+    "neck": "猛雷鼓",
     "steveneel": "麻麻鳗鱼王",
     "ttar": "班基拉斯",
     "ttarmega": "Mega班基拉斯"
@@ -159,14 +159,17 @@
     "caplc": "CAP LC",
     "capmoves": "CAP Moves",
     "current": "$t(common:labels.current)",
+    "daily": "Daily",
     "defense": "Defense",
-    "dou": "Doubles OU",
-    "dnu": "Doubles NU",
-    "duber": "Doubles Ubers",
-    "duu": "Doubles UU",
+    "dou": "双打对战 OU",
+    "dnu": "双打对战 NU",
+    "duber": "双打对战 Ubers",
+    "duu": "双打对战 UU",
     "favorites": "Favorites",
     "field": "Field",
     "formes": "形态",
+    "gendoubles": "$t(pokedex:gens.{{gen}}.label) 双打对战",
+    "gensingles": "$t(pokedex:gens.{{gen}}.label) 单打对战",
     "hiddenability": "隐藏特性",
     "hiddenpower": "觉醒力量",
     "illegalresults": "不合法的",
