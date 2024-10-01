@@ -16,7 +16,7 @@ export const ShowdexLocaleBundles: ShowdexLocaleBundle[] = [
     author: 'BOT Keith',
     desc: '(i18n)',
     created: '2024-01-05T12:18:35.813Z',
-    updated: '2024-07-31T15:31:45.950Z',
+    updated: '2024-09-28T22:20:41.390Z',
     disabled: false,
   },
   {
@@ -29,7 +29,7 @@ export const ShowdexLocaleBundles: ShowdexLocaleBundle[] = [
     author: 'Sykless, Betcheg, ChatGPT & Google Translate',
     desc: '(i18n)',
     created: '2024-01-08T16:46:10.432Z',
-    updated: '2024-07-31T15:07:07.262Z',
+    updated: '2024-09-28T22:20:22.835Z',
     disabled: false,
   },
   {
@@ -42,7 +42,7 @@ export const ShowdexLocaleBundles: ShowdexLocaleBundle[] = [
     author: 'RadiantWF, ChatGPT & Google Translate',
     desc: '(i18n)',
     created: '2024-04-18T12:29:07.229+0800',
-    updated: '2024-08-01T14:34:01.046+0800',
+    updated: '2024-10-01T16:02:01.046+0800',
     disabled: false,
   },
 ];

@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "locale": "zh-cn",
     "created": "2024-04-18T12:29:07.229+0800",
-    "updated": "2024-08-01T14:34:01.046+0800"
+    "updated": "2024-10-01T15:51:01.046+0800"
   },
 
   "pane": {
@@ -320,7 +320,7 @@
       }
     },
     "autoImportTeamSheets": {
-      "label": "自动导入队伍表",
+      "label": "导入队伍表",
       "tooltip": "导入并应用来自开放队伍表（OTS），标准VGC格式，或者 <code>!showteam</code> $t(common:products.showdown) 聊天命令的设置。<br /><br />注意，OTS 可能会省略分配，即$t(pokedex:stats.ivs_other.1)，$t(pokedex:stats.evs_other.1) 和性格。在这种情况下，OTS不会被转换成队伍配置，而是被用作已公开的信息，以便允许其他配置中分配使用。"
     },
 
@@ -343,7 +343,7 @@
     },
 
     "defaultAutoSelect": {
-      "label": "自动切换宝可梦",
+      "label": "切换宝可梦",
       "options": {
         "auth": {
           "label": "己方",
@@ -418,13 +418,19 @@
     },
 
     "defaultAutoMoves": {
-      "label": "自动填充招式",
+      "label": "填充招式",
       "tooltip": "在战斗中，随着对手（或观战玩家）的宝可梦的实际操作，填充招式列表，替换默认招式列表中的招式。"
+    },
+
+    "defaultAutoPreset": {
+      "label": "猜测最佳配置",
+      "tooltip": "根据对手（或观战玩家）宝可梦的<strong>可用配置</strong>和战斗中揭示的信息，确定并切换到最可能的配置。<br /><br />当猜测缩小到单一配置时，配置下拉列表中的<em>$t(common:labels.auto)</em>开关将变为<green>{{color}}</green>（或者您的<strong>$t(calcdex.nhkoColors.label)</strong>中的第一个颜色）。否则，开关将保持<blue>蓝色</blue>，选中时将禁用自动配置选择，使其变灰。<br /><br />这是该功能的<strong>初步</strong>实现，仅包含第一部分：已揭示的信息。此外，它只能使用可用的内容，所以猜测的准确性取决于可用的配置。因此，不言而喻：<strong>强烈建议玩家谨慎使用！！！</strong>",
+      "green": "绿色"
     },
 
     "enableQuickEditor": {
       "label": "快速编辑招式效果",
-      "tooltip": "允许你快速编辑多次攻击招式的命中次数，例如 <em>冰锥</em>，并切换 <em>力量交换</em> 的激活状态。<br /><br />如果启用了 <em>$t(calcdex.showMoveEditor.label)</em>，你也可以在招式编辑器中编辑这些内容。"
+      "tooltip": "允许你快速编辑多次攻击招式的命中次数，例如 <em>冰锥</em>，并切换 <em>力量交换</em> 的激活状态。"
     },
 
     "showNonDamageRanges": {
@@ -517,24 +523,6 @@
       }
     },
 
-    "showMoveEditor": {
-      "label": "编辑招式",
-      "options": {
-        "always": {
-          "label": "总是",
-          "tooltip": "在宝可梦的招式表中显示一个 <em>$t(common:labels.edit)</em> 按钮，用于切换招式编辑器。<br /><br />你可以编辑招式的属性、类别（如果有伤害）和 BP，包括激活时的 Z 和 Max 招式的独立 BP。每个宝可梦的每个招式的编辑都是唯一的。"
-        },
-        "meta": {
-          "label": "OMs",
-          "tooltip": "仅在非标准Other Metagame（OM）规则中显示 <em>$t(common:labels.edit)</em> 按钮。<br /><br />将鼠标悬停在 <strong>$t(calcdex.showMoveEditor.options.always.label)</strong> 选项上，了解更多关于招式编辑器的信息。"
-        },
-        "never": {
-          "label": "从不",
-          "tooltip": "不允许<em>$t(common:labels.edit)</em>"
-        }
-      }
-    },
-
     "allowIllegalSpreads": {
       "label": "允许非法个体、努力值",
       "options": {
@@ -618,14 +606,13 @@
 
     "alwaysEditTypes": {
       "label": "始终编辑属性",
-      "tooltip": "允许在$t(common:products.honkdex_one)中编辑宝可梦的属性，而不管所选规则如何。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.editPokemonTypes.label)</em> $t(common:products.calcdex_one) 设置。"
+      "tooltip": "无论选择何种对战规则，都允许在$t(common:products.honkdex_one)中编辑宝可梦的属性。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.editPokemonTypes.label)</em> $t(common:products.calcdex_one) 设置。"
     },
 
     "alwaysEditMoves": {
       "label": "始终编辑招式",
-      "tooltip": "允许访问招式编辑器，而不管规则如何。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.showMoveEditor.label)</em> $t(common:products.calcdex_one) 设置。有关招式编辑器的更多信息，请参阅上述设置。"
+      "tooltip": "无论选择何种对战规则，都允许访问招式编辑器。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.showMoveEditor.label)</em> $t(common:products.calcdex_one) 设置。请参阅上述设置以了解更多关于招式编辑器的信息。"
     },
-
     "alwaysShowGenetics": {
       "label": "始终显示属性",
       "tooltip": "始终在宝可梦的属性表中显示$t(pokedex:stats.base_other.0)、$t(pokedex:stats.ivs_other.1)和$t(pokedex:stats.evs_other.1)。除非启用了<em>$t(calcdex.showLegacyEvs.label)</em> $t(common:products.calcdex_one) 设置，否则$t(pokedex:stats.evs_other.1)仍可能在旧版世代中隐藏。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.showAuthGenetics.label)</em>和<em>$t(calcdex.showPlayerGenetics.label)</em> $t(common:products.calcdex_one) 设置。"
@@ -634,7 +621,7 @@
 
   "showdown": {
     "autoAcceptSheets": {
-      "label": "自动接受公开队伍表请求",
+      "label": "接受公开队伍表请求",
       "tooltip": "立即接受公开队伍表（OTS）的请求，通常是VGC规则。"
     }
   }
