@@ -1,18 +1,18 @@
 {
   "--meta": {
     "name": "calcdex",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "locale": "zh-cn",
-    "created": "2024-04-18T12:29:07.229+0800",
-    "updated": "2024-08-01T14:34:01.046+0800"
+    "created": "2024-01-07T16:00:56.179Z",
+    "updated": "2024-07-31T15:31:45.950Z"
   },
 
   "contextMenu": {
-    "switchSides": "切换玩家",
-    "convertHonk": "转换至Honk",
+    "switchSides": "切换对战方",
+    "convertHonk": "转换为Honk",
     "openHellodex": "$t(common:products.hellodex_one)",
     "closeOverlay": "$t(common:labels.close)",
-    "closeTab": "关闭标签"
+    "closeTab": "关闭标签页"
   },
 
   "overlay": {
@@ -24,12 +24,12 @@
 
   "player": {
     "user": {
-      "aria": "{{position}}玩家选择器",
-      "defaultName": "玩家{{index}}",
-      "optionLabel": "玩家{{index}}",
-      "empty": "没有玩家",
-      "selectorTooltip": "切换<strong>{{position}}</strong>玩家",
-      "buttonTooltip": "打开<strong>{{player}}</strong>的个人资料"
+      "aria": "{{position}}方选择器",
+      "defaultName": "玩家 {{index}}",
+      "optionLabel": "P{{index}}",
+      "empty": "无玩家",
+      "selectorTooltip": "切换<strong>{{position}}</strong>方",
+      "buttonTooltip": "查看<strong>{{player}}</strong>的个人资料"
     },
 
     "autoSelect": {
@@ -44,7 +44,7 @@
         "activatePokemon": "$t(common:labels.active)",
         "addPokemon": "$t(common:labels.new)",
         "dupePokemon": "$t(common:labels.duplicate)",
-        "movePokemon": "移动到{{side}}",
+        "movePokemon": "移动至{{side}}方",
         "removePokemon": "$t(common:labels.delete)"
       }
     }
@@ -55,27 +55,27 @@
       "forme": {
         "aria": "宝可梦选择器",
         "empty": "$t(pokedex:species.nopokemon)",
-        "smogonTooltip": "打开Smogon页面查看<br /><strong>{{pokemon}}</strong>"
+        "smogonTooltip": "在Smogon查看<br /><strong>{{pokemon}}</strong>"
       },
 
       "level": {
-        "aria": "{{pokemon}} 的 $t(pokedex:headers.level_one)",
-        "label": "L",
+        "aria": "{{pokemon}}的$t(pokedex:headers.level_one)",
+        "label": "Lv",
         "hint": "???"
       },
 
       "types": {
-        "aria": "{{pokemon}} 的 $t(pokedex:headers.type_other)"
+        "aria": "{{pokemon}}的$t(pokedex:headers.type_other)"
       },
 
       "teraType": {
-        "aria": "{{pokemon}} 的 $t(pokedex:headers.teratype_other)",
+        "aria": "{{pokemon}}的$t(pokedex:headers.teratype_other)",
         "label": "$t(pokedex:headers.teratype_one)",
         "emptyLabel": "$t(pokedex:ultimates.tera.2)"
       },
 
       "status": {
-        "aria": "{{pokemon}} 的 $t(pokedex:stats.hp.1) 与 非易变状态",
+        "aria": "{{pokemon}}的$t(pokedex:stats.hp.1)和异常状态",
         "resetHpLabel": "$t(common:labels.reset)",
         "resetStatusLabel": "$t(common:labels.reset)",
         "unknown": "$t(pokedex:types.unknown.3)",
@@ -90,7 +90,7 @@
       },
 
       "preset": {
-        "aria": "{{pokemon}} 的可用配置",
+        "aria": "{{pokemon}}的可用配置",
         "label": "配置",
         "hint": "???",
         "none": "$t(common:labels.none)",
@@ -100,20 +100,20 @@
         "importLabel": "$t(common:labels.import)",
         "exportLabel": "$t(common:labels.export)",
         "exportMultiLabel": "$t(common:labels.all)",
-        "importTooltip": "Import PokéPaste from Clipboard",
+        "importTooltip": "从剪贴板导入配置",
         "importedBadge": "$t(common:labels.imported)",
         "importedMultiBadge": "$t(common:labels.imported) {{count}}",
-        "exportMultiTooltip_one": "$t(common:labels.export) {{count}} set",
-        "exportMultiTooltip_other": "$t(common:labels.export) {{count}} sets",
-        "exportedBadge": "$t(common:labels.copied)!",
+        "exportMultiTooltip_one": "$t(common:labels.export) {{count}} 个配置",
+        "exportMultiTooltip_other": "$t(common:labels.export) {{count}} 个配置",
+        "exportedBadge": "$t(common:labels.copied)！",
         "exportedMultiBadge": "$t(common:labels.copied) {{count}}",
-        "malformedBadge": "语法错误",
+        "malformedBadge": "格式错误",
         "mismatchedBadge": "不匹配",
         "failedBadge": "$t(common:labels.failed)"
       },
 
       "ability": {
-        "aria": "{{pokemon}}可能的$t(pokedex:headers.ability_other)",
+        "aria": "{{pokemon}}的$t(pokedex:headers.ability_other)",
         "label": "$t(pokedex:headers.ability_one)",
         "hint": "???",
         "legacyHint": "$t(common:labels.na)",
@@ -122,127 +122,127 @@
         "resetLabel": "$t(common:labels.reset)",
         "activeTooltip": "停用<strong>{{ability}}</strong>",
         "inactiveTooltip": "启用<strong>{{ability}}</strong>",
-        "resetTooltip": "重置为已揭示的<strong>{{ability}}</strong>",
+        "resetTooltip": "重置为已知的<strong>{{ability}}</strong>",
         "boostedStatLabel": "提升的$t(pokedex:headers.stat_one)",
         "autoBoostedStat": "$t(common:labels.auto)",
-        "autoBoostedStatLabel": "自动提升启用"
+        "autoBoostedStatLabel": "自动提升已启用"
       },
 
       "nature": {
-        "aria": "{{pokemon}}可能的$t(pokedex:headers.nature_other)",
-        "spreadAria": "{{pokemon}}可能的$t(pokedex:headers.spread_other)",
+        "aria": "{{pokemon}}的$t(pokedex:headers.nature_other)",
+        "spreadAria": "{{pokemon}}的$t(pokedex:headers.spread_other)",
         "label": "$t(pokedex:headers.nature_one)",
         "spreadLabel": "$t(pokedex:headers.spread_one)",
         "hint": "???",
         "legacyHint": "$t(common:labels.na)",
         "customHint": "$t(common:labels.custom)",
         "empty": "无$t(pokedex:headers.nature_other)",
-        "spreadEmpty": "无$t(pokedex.headers:spread_other)",
-        "natureToggleTooltip": "切换到<strong>$t(pokedex:headers.spread_other)</strong>",
-        "spreadToggleTooltip": "切换到<strong>$t(pokedex:headers.nature_other)</strong>"
+        "spreadEmpty": "无$t(pokedex:headers.spread_other)",
+        "natureToggleTooltip": "切换至<strong>$t(pokedex:headers.spread_other)</strong>",
+        "spreadToggleTooltip": "切换至<strong>$t(pokedex:headers.nature_other)</strong>"
       },
 
       "item": {
-        "aria": "{{pokemon}}可能的$t(pokedex:headers.item_other)",
+        "aria": "{{pokemon}}的$t(pokedex:headers.item_other)",
         "label": "$t(pokedex:headers.item_one)",
         "hint": "$t(common:labels.none)",
         "legacyHint": "$t(common:labels.na)",
         "empty": "$t(pokedex:items.noitem_other)",
         "defaultPrevEffect": "$t(common:labels.previous)",
         "resetLabel": "$t(common:labels.reset)",
-        "resetTooltip": "重置为{{effect}} <strong>{{item}}</strong>"
+        "resetTooltip": "重置为{{effect}}的<strong>{{item}}</strong>"
       }
     },
 
     "moves": {
       "label": "$t(pokedex:headers.move_other)",
       "dmg": "伤害",
-      "nhko": "KO %",
+      "nhko": "击倒概率",
       "na": "$t(common:labels.na)",
       "immune": "免疫",
       "failure": "失败",
-      "copiedBadge": "$t(common:labels.copied)!",
+      "copiedBadge": "$t(common:labels.copied)！",
 
       "tera": {
         "label": "$t(pokedex:ultimates.tera.2)",
-        "activeTooltip": "恢复到<strong>{{types}}</strong>",
-        "inactiveTooltip": "$t(pokedex:ultimates.tera.1) 到 <strong>{{teraType}}</strong>",
-        "availableTooltip": "$t(pokedex:ultimates.tera.2) <strong>可用</strong>",
-        "unavailableTooltip": "$t(pokedex:ultimates.tera.2) <strong>已使用</strong>"
+        "activeTooltip": "恢复为<strong>{{types}}</strong>",
+        "inactiveTooltip": "$t(pokedex:ultimates.tera.1)为<strong>{{teraType}}</strong>",
+        "availableTooltip": "$t(pokedex:ultimates.tera.2)<strong>可用</strong>",
+        "unavailableTooltip": "$t(pokedex:ultimates.tera.2)<strong>已使用</strong>"
       },
 
       "z": {
         "label": "$t(pokedex:ultimates.z.2)",
-        "activeTooltip": "停用 <strong>$t(pokedex:ultimates.z.0)</strong>",
-        "inactiveTooltip": "激活 <strong>$t(pokedex:ultimates.z.0)</strong>"
+        "activeTooltip": "停用<strong>$t(pokedex:ultimates.z.0)</strong>",
+        "inactiveTooltip": "启用<strong>$t(pokedex:ultimates.z.0)</strong>"
       },
 
       "dmax": {
         "label": "{{ultimate}}",
-        "activeTooltip": "停用 <strong>{{ultimate}}</strong>",
-        "inactiveTooltip": "激活 <strong>{{ultimate}}</strong>",
-        "availableTooltip": "{{ultimate}} <strong>可用</strong>",
-        "unavailableTooltip": "{{ultimate}} <strong>已使用</strong>"
+        "activeTooltip": "停用<strong>{{ultimate}}</strong>",
+        "inactiveTooltip": "启用<strong>{{ultimate}}</strong>",
+        "availableTooltip": "{{ultimate}}<strong>可用</strong>",
+        "unavailableTooltip": "{{ultimate}}<strong>已使用</strong>"
       },
 
       "editor": {
         "activeLabel": "$t(common:labels.hide)",
         "inactiveLabel": "$t(common:labels.edit)",
-        "activeTooltip": "关闭 <strong>招式编辑器</strong>",
-        "inactiveTooltip": "打开 <strong>招式编辑器</strong>",
+        "activeTooltip": "关闭<strong>招式编辑器</strong>",
+        "inactiveTooltip": "打开<strong>招式编辑器</strong>",
         "resetLabel": "$t(common:labels.reset)",
-        "resetTooltip": "重置 <strong>{{move}}</strong> 为默认",
+        "resetTooltip": "重置<strong>{{move}}</strong>为默认值",
 
         "faintCounter": {
-          "aria": "Fallen Allies Count for {{pokemon}}",
-          "label": "Fallen",
+          "aria": "{{pokemon}}的倒下队友数量",
+          "label": "倒下数",
           "resetLabel": "$t(common:labels.reset)",
-          "resetTooltip": "Reset to <strong>{{count}} Fallen</strong>"
+          "resetTooltip": "重置为<strong>{{count}}个倒下</strong>"
         },
 
         "category": {
-          "aria": "{{move}} Stat Targeting Overrides for {{pokemon}}"
+          "aria": "{{pokemon}}的{{move}}目标能力值覆盖"
         },
 
         "active": {
           "label": "$t(common:labels.active)",
-          "activeTooltip": "停用 <strong>{{move}}</strong>",
-          "inactiveTooltip": "激活 <strong>{{move}}</strong>"
+          "activeTooltip": "停用<strong>{{move}}</strong>",
+          "inactiveTooltip": "启用<strong>{{move}}</strong>"
         },
 
         "stellar": {
           "label": "$t(pokedex:types.stellar.0)",
-          "activeTooltip": "停用 <strong>$t(pokedex:types.stellar.0) STAB</strong>",
-          "inactiveTooltip": "激活 <strong>$t(pokedex:types.stellar.0) STAB</strong>"
+          "activeTooltip": "停用<strong>$t(pokedex:types.stellar.0)本系加成</strong>",
+          "inactiveTooltip": "启用<strong>$t(pokedex:types.stellar.0)本系加成</strong>"
         },
 
         "hits": {
-          "aria": "Number of {{move}} Hits Override for {{pokemon}}",
-          "label_one": "Hit",
-          "label_other": "Hits"
+          "aria": "{{pokemon}}的{{move}}攻击次数覆盖",
+          "label_one": "次",
+          "label_other": "次"
         },
 
         "bp": {
-          "aria": "{{move}} $t(pokedex:stats.bp.0) Override for {{pokemon}}",
-          "hitAria": "{{move}} Hit {{hit}} of {{hits}} $t(pokedex:stats.bp.0) Override for {{pokemon}}",
+          "aria": "{{pokemon}}的{{move}}$t(pokedex:stats.bp.0)覆盖",
+          "hitAria": "{{pokemon}}的{{move}}第{{hit}}/{{hits}}次攻击$t(pokedex:stats.bp.0)覆盖",
           "label": "{{ultimate}}$t(pokedex:stats.bp.1)"
         }
       },
 
       "criticalHit": {
-        "activeTooltip": "隐藏 <strong>击中要害</strong> 伤害",
-        "inactiveTooltip": "显示 <strong>击中要害</strong> 伤害",
+        "activeTooltip": "隐藏<strong>要害攻击</strong>伤害",
+        "inactiveTooltip": "显示<strong>要害攻击</strong>伤害",
         "label": "要害"
       },
 
       "slot": {
-        "aria": "Move Slot {{count}} for {{pokemon}}",
+        "aria": "{{pokemon}}的招式栏位 {{count}}",
         "hint": "--",
         "empty": "$t(pokedex:moves.nomove_other)"
       },
 
       "failureReasons": {
-        "rbyRecovery": "由于第一代游戏中的一个BUG，如果恢复招式使用时，失去的 $t(pokedex:stats.hp.1) 除以 256 的余数为 255，则恢复招式将会失败。"
+        "rbyRecovery": "由于第一世代的漏洞，如果失去的$t(pokedex:stats.hp.1)除以256的余数为255，回复招式将会失败。"
       }
     },
 
@@ -250,32 +250,32 @@
       "visibility": {
         "activeLabel": "$t(common:labels.hide)",
         "inactiveLabel": "$t(common:labels.show)",
-        "activeTooltip": "隐藏 <strong>{{stats}}</strong>",
-        "inactiveTooltip": "显示 <strong>{{stats}}</strong>"
+        "activeTooltip": "隐藏<strong>{{stats}}</strong>",
+        "inactiveTooltip": "显示<strong>{{stats}}</strong>"
       },
 
       "base": {
-        "aria": "{{pokemon}} 的 {{stat}} $t(pokedex:stats.base_one.0)",
+        "aria": "{{pokemon}}的{{stat}}种族值",
         "label": "$t(pokedex:stats.base_one.1)",
-        "resetTooltip": "重置 <strong>所有修改</strong> $t(pokedex:stats.base_other.0)"
+        "resetTooltip": "重置<strong>所有修改过的</strong>$t(pokedex:stats.base_other.0)"
       },
 
       "ivs": {
-        "aria": "{{pokemon}} 的 {{stat}} {{spread}}",
-        "label": "$t(pokedex:stats.ivs_one.1)",
-        "legacyLabel": "$t(pokedex:stats.dvs_one.1)",
-        "missingTooltip": "没有 <strong>{{spreads}}</strong> 配置!"
+        "aria": "{{pokemon}}的{{stat}} {{spread}}",
+        "label": "$t(pokedex:stats.ivs_one.1)<smol>s</smol>",
+        "legacyLabel": "$t(pokedex:stats.dvs_one.1)<smol>s</smol>",
+        "missingTooltip": "未设置<strong>{{spreads}}</strong>！"
       },
 
       "evs": {
-        "aria": "{{pokemon}} 的 {{stat}} $t(pokedex:stats.evs_one.1)",
-        "label": "$t(pokedex:stats.evs_one.1)",
+        "aria": "{{pokemon}}的{{stat}}$t(pokedex:stats.evs_one.1)",
+        "label": "$t(pokedex:stats.evs_one.1)<smol>s</smol>",
         "stat_one": "$t(pokedex:stats.evs_one.1)",
         "stat_other": "$t(pokedex:stats.evs_other.1)",
         "validatedTooltip": "有效",
-        "missingTooltip": "没有设置 <strong>$t(poke.stats.evs.stat_other)</strong>！",
-        "unallocatedTooltip": "你还有 <strong>{{count}} 未分配的 $t(poke.stats.evs.stat, { \"count\": {{count}} })</strong>。",
-        "overageTooltip": "你的 <strong>{{count}} $t(poke.stats.evs.stat, { \"count\": {{count}} })</strong> 超过了法定限制的 <strong>{{max}}</strong>。"
+        "missingTooltip": "未设置<strong>$t(poke.stats.evs.stat_other)</strong>！",
+        "unallocatedTooltip": "还有<strong>{{count}}点未分配的$t(poke.stats.evs.stat, { \"count\": {{count}} })</strong>",
+        "overageTooltip": "已超出<strong>{{max}}</strong>点的限制，当前为<strong>{{count}}点</strong>"
       },
 
       "boosts": {
@@ -285,18 +285,18 @@
   },
 
   "field": {
-    "yours": "你的",
-    "theirs": "他们的",
-    "field": "战场",
-    "screens": "屏幕",
+    "yours": "我方",
+    "theirs": "对方",
+    "field": "场地",
+    "screens": "屏障",
 
     "conditions": {
       "lightscreen": "光墙",
       "reflect": "反射壁",
       "auroraveil": "极光幕",
-      "helpinghand": "帮手",
+      "helpinghand": "帮助",
       "flowergift": "花之礼",
-      "friendguard": "友情守护",
+      "friendguard": "友情防守",
       "battery": "蓄电池",
       "powerspot": "能量点",
       "tailwind": "顺风",
@@ -307,30 +307,30 @@
     },
 
     "spikes": {
-      "aria_one": "Apply {{count}} Layer of Spikes",
-      "aria_other": "Apply {{count}} Layers of Spikes",
-      "label_one": "{{count}}<times />Spike",
-      "label_other": "{{count}}<times />Spike"
+      "aria_one": "设置{{count}}层撒菱",
+      "aria_other": "设置{{count}}层撒菱",
+      "label_one": "{{count}}<times />层",
+      "label_other": "{{count}}<times />层"
     },
 
     "weather": {
-      "aria": "场地天气",
+      "aria": "天气状态",
       "label": "$t(pokedex:headers.weather)",
       "hint": "$t(common:labels.none)",
       "legacyHint": "$t(common:labels.na)",
       "empty": "无天气",
       "resetLabel": "$t(common:labels.reset)",
-      "resetTooltip": "重置为 <strong>{{weather}}</strong>"
+      "resetTooltip": "重置为<strong>{{weather}}</strong>"
     },
 
     "terrain": {
-      "aria": "战场场地",
+      "aria": "场地状态",
       "label": "$t(pokedex:headers.terrain)",
       "hint": "$t(common:labels.none)",
       "legacyHint": "$t(common:labels.na)",
       "empty": "无场地",
       "resetLabel": "$t(common:labels.reset)",
-      "resetTooltip": "重置为 <strong>{{terrain}}</strong>"
+      "resetTooltip": "重置为<strong>{{terrain}}</strong>"
     }
   }
 }

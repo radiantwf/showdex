@@ -19,33 +19,33 @@
   "battle": {
     "gen": {
       "aria": "世代选择器",
-      "optionAria": "切换到世代 {{gen}}",
-      "locked": "在计算器中切换世代将打开一个<strong>新的</strong>，<strong>空白的</strong> $t(common:products.honkdex_one)。",
-      "friendlyLabel": "第{{gen}}世代 "
+      "optionAria": "切换至第 {{gen}} 世代",
+      "locked": "在计算器中切换世代将会打开一个<strong>新的</strong>、<strong>空白的</strong> $t(common:products.honkdex_one)",
+      "friendlyLabel": "第 {{gen}} 世代"
     },
 
     "name": {
-      "hint": "命名这个 $t(common:products.honk_one) 以保存这个 $t(common:products.honk_one)",
-      "dupe": "复制 {{name}}",
-      "friends": "朋友"
+      "hint": "为此 $t(common:products.honk_one) 命名以保存",
+      "dupe": "{{name}} 的副本",
+      "friends": "好友"
     },
 
     "format": {
-      "aria": "战斗规则选择器",
+      "aria": "对战规则选择器",
       "hint": "???",
-      "empty": "没有规则"
+      "empty": "无可用规则"
     },
 
     "save": {
       "unsaved": "$t(common:labels.save)",
       "saving": "$t(common:labels.saving)...",
-      "savedRecently": "$t(common:labels.saved)",
-      "savedAgo": "$t(common:labels.saved) {{ago}} 之前"
-      }
-    },
-
-    "sideControls": {
-      "activeLabel": "$t(common:labels.active)",
-      "dupeLabel": "复制"
+      "savedRecently": "刚刚$t(common:labels.saved)",
+      "savedAgo": "{{ago}}前$t(common:labels.saved)"
     }
+  },
+
+  "sideControls": {
+    "activeLabel": "$t(common:labels.active)",
+    "dupeLabel": "复制"
+  }
 }

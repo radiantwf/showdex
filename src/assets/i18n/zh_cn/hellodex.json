@@ -8,31 +8,31 @@
   },
 
   "contextMenu": {
-    "newHonk": "New Honk",
-    "spectate": "Spectate Battles",
+    "newHonk": "新建 Honk",
+    "spectate": "观战",
     "settings": "$t(common:labels.setting_other)",
     "close": "$t(common:labels.close)"
   },
 
   "header": {
     "title": "<keith /> <and>&amp;</and> <cameron />",
-    "subtitle": "呈现"
+    "subtitle": "为您呈现"
   },
 
   "instances": {
     "empty": {
-      "openAlways": "当你<strong>战斗</strong>或<spectate>观战</spectate>时，计算器将自动打开。",
-      "openPlaying": "当你<strong>战斗</strong>时，计算器将自动打开。",
-      "openSpectating": "当你<spectate>观战</spectate>时，计算器将自动打开。",
-      "openNever": "根据你的<settings>设置</settings>，计算器永不自动打开。",
-      "settingsTooltip": "打开$t(common:products.showdex)设置",
-      "spectateTooltip": "查看进行中的战斗"
+      "openAlways": "在<strong>对战</strong>或<spectate>观战</spectate>时，计算器将自动打开",
+      "openPlaying": "在<strong>对战</strong>时，计算器将自动打开",
+      "openSpectating": "在<spectate>观战</spectate>时，计算器将自动打开",
+      "openNever": "根据当前<settings>设置</settings>，计算器不会自动打开",
+      "settingsTooltip": "打开 $t(common:products.showdex) 设置",
+      "spectateTooltip": "查看进行中的对战"
     },
     "calcdex": {
       "contextMenu": {
         "open": "$t(common:labels.open)",
-        "convertHonk": "转换为Honk",
-        "closeBattle": "离开战斗"
+        "convertHonk": "转换为 Honk",
+        "closeBattle": "退出对战"
       }
     },
     "honkdex": {
@@ -43,7 +43,7 @@
       },
       "orSeparator": "或",
       "newLabel": ["<strong>新建</strong>", "<strong>Honk</strong>dex"],
-      "newAria": "创建新的$t(common:products.honk_one)"
+      "newAria": "创建新的 $t(common:products.honk_one)"
     }
   },
 
@@ -57,66 +57,66 @@
   },
 
   "donate": {
-    "aria": "支持$t(common:products.showdex)",
-    "label": "<strong>向</strong>dex<strong>展示</strong>一些<strong>爱心</strong>",
+    "aria": "支持 $t(common:products.showdex)",
+    "label": "为 Show<strong>dex</strong> <strong>献上</strong>一份<strong>爱心</strong>",
     "footnote": {
-      "default": "如果你喜欢这个扩展，请考虑支持进一步的开发。",
-      "supporter": "感谢你对$t(common:products.showdex)的支持！"
+      "default": "如果你喜欢这个扩展，请考虑支持我们继续开发",
+      "supporter": "感谢你对 $t(common:products.showdex) 的支持！"
     }
   },
 
   "footer": {
-    "created": "创建者 <love />",
+    "created": "由 <love /> 创作",
 
     "settings": {
       "openLabel": "$t(common:labels.setting_other)",
       "closeLabel": "$t(common:labels.close)",
-      "openTooltip": "打开$t(common:products.showdex)设置",
-      "closeTooltip": "关闭$t(common:products.showdex)设置"
+      "openTooltip": "打开 $t(common:products.showdex) 设置",
+      "closeTooltip": "关闭 $t(common:products.showdex) 设置"
     },
 
     "smogon": {
       "label": "Smogon",
-      "tooltip": "在Smogon论坛上讨论"
+      "tooltip": "前往 Smogon 论坛讨论"
     },
 
     "github": {
       "label": "GitHub",
-      "tooltip": "在GitHub上查看源代码"
+      "tooltip": "在 GitHub 上查看源代码"
     },
 
     "discord": {
       "label": "Discord",
-      "tooltip": "加入我们的Discord社区！"
+      "tooltip": "加入我们的 Discord 社区！"
     }
   },
 
   "patronage": {
     "header": {
       "closeTooltip": "关闭支持者信息",
-      "defaultTitle": "向<thin>dex</thin>展示一些<br /><dash /> <heart /> <dash />",
+      "defaultTitle": "为 Show<thin>dex</thin> 献上<br /><dash />爱心<dash />",
       "supporterTitle": "<thin>$t(common:products.showdex)</thin> <heart /><br /><supporter>{{name}}</supporter>"
     },
 
     "paypal": {
       "name": "PayPal",
-      "description": "所有的捐款都是<em>一次性</em>的贡献，使你有资格获得最低$t(patronage.patreon.name)等级的福利，不包括给予活跃承诺的福利。请访问我们的$t(patronage.patreon.name)了解具体的福利。<em>{{date}}更新。</em>",
+      "description": "所有捐款均为<em>一次性</em>捐赠，你将获得最低级别 $t(patronage.patreon.name) 的福利（不含活跃赞助者专属福利）。请访问我们的 $t(patronage.patreon.name) 了解具体福利详情。<em>更新于 {{date}}</em>",
       "action": {
-        "aria": "通过$t(patronage.paypal.name)捐款",
-        "label": "<strong>通过</strong><strong>$t(patronage.paypal.name)</strong>捐款"
+        "aria": "通过 $t(patronage.paypal.name) 捐赠",
+        "label": "通过 <strong>$t(patronage.paypal.name)</strong> <strong>捐赠</strong>"
       }
     },
 
     "patreon": {
       "name": "Patreon",
-      "description": "所有$t(patronage.patreon.name)级别都是<em>每月</em>的捐款，使你有资格获得比<em>一次性</em>捐款更多的福利。请访问我们的$t(patronage.patreon.name)了解更多详情。Batteries不包括在内。<em>{{date}}更新。</em>",
+      "description": "所有 $t(patronage.patreon.name) 等级都是<em>每月</em>捐赠，你将获得比<em>一次性</em>捐赠更多的福利。请访问我们的 $t(patronage.patreon.name) 了解更多详情。不含电池。<em>更新于 {{date}}</em>",
       "defaultAction": {
-        "aria": "成为一名赞助者",
-        "label": "<strong>成为</strong>一名<strong>赞助者</strong>"
+        "aria": "成为赞助者",
+        "label": "成为<strong>赞助者</strong>"
       },
       "supporterAction": {
-        "aria": "访问我们的$t(patronage.patreon.name)",
-        "label": "<strong>访问</strong>我们的<strong>$t(patronage.patreon.name)</strong>"
+        "aria": "访问我们的 $t(patronage.patreon.name)",
+        "label": "<strong>访问</strong>我们的 <strong>$t(patronage.patreon.name)</strong>"
       }
     }
   }

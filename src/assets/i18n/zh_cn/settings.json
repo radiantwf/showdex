@@ -38,7 +38,7 @@
     "sections": {
       "primary": {
         "general": "常规",
-        "presets": "配置",
+        "presets": "预设",
         "autoFeatures": "自动功能",
         "metagame": "OM & LC 支持",
         "visibility": "显示/隐藏",
@@ -50,20 +50,20 @@
       },
 
       "secondary": {
-        "advanced": "Advanced",
-        "behavior": "Behavior",
+        "advanced": "高级",
+        "behavior": "行为",
         "interface": "界面",
         "matchup_one": "对战",
         "matchup_other": "对战",
-        "panel": "Panel Tab",
-        "presets": "Sets",
-        "special": "Special",
+        "panel": "面板标签",
+        "presets": "配置",
+        "special": "特殊",
         "tooltips": "提示"
       }
     },
 
     "footer": {
-      "message": "plz excuse the mess, this is a work in progress"
+      "message": "功能开发中，敬请期待"
     }
   },
 
@@ -71,17 +71,17 @@
     "locale": {
       "label": "语言",
       "tooltip": {
-        "author": "by {{name}}",
-        "updated": "<em>更新日期 {{date}}</em>"
+        "author": "作者：{{name}}",
+        "updated": "<em>更新于 {{date}}</em>"
       },
       "options": {
         "en": {
           "name": "English",
-          "description": "Standard issue."
+          "description": "标准版本。"
         },
         "fr": {
           "name": "French",
-          "description": "Contains French versions of all <em>talents</em>, <em>natures</em>, <em>objets</em>, <em>capacités</em> &amp; Pokémon, sourced from Sykless's <code>pokemon-showdown-fr</code> extension! (All descriptions are still in English.)<br /><br />Also with the help of ChatGPT & Google Translate, the rest of Showdex is also in <em>what we hope you'd excuse</em> our \"French.\" Thanks to Betcheg for the touch-up work!<br /><br /><em>bone apple teeth !</em>"
+          "description": "包含所有<em>特性</em>、<em>性格</em>、<em>道具</em>、<em>招式</em>和宝可梦的法语版本，源自 Sykless 的 <code>pokemon-showdown-fr</code> 扩展！（所有描述仍为英文。）<br /><br />在 ChatGPT 和谷歌翻译的帮助下，Showdex 的其他部分也已翻译成\"我们希望你能原谅的\"法语。感谢 Betcheg 的修改工作！<br /><br /><em>祝您使用愉快！</em>"
         }
       }
     },
@@ -91,63 +91,63 @@
       "options": {
         "showdown": {
           "label": "$t(common:products.showdown)",
-          "tooltip": "匹配 $t(common:products.showdown) 的图形主题。"
+          "tooltip": "跟随 $t(common:products.showdown) 的主题设置"
         },
         "light": {
-          "label": "亮色",
-          "tooltip": "无论 $t(common:products.showdown) 的图形主题如何，都将所有 $t(common:products.showdex) 强制为亮色模式。"
+          "label": "浅色",
+          "tooltip": "强制使用浅色主题，忽略 $t(common:products.showdown) 的主题设置"
         },
         "dark": {
-          "label": "暗色",
-          "tooltip": "无论 $t(common:products.showdown) 的图形主题如何，都将所有 $t(common:products.showdex) 强制为暗色模式。"
+          "label": "深色",
+          "tooltip": "强制使用深色主题，忽略 $t(common:products.showdown) 的主题设置"
         }
       }
     },
 
     "colorTheme": {
-      "label": "颜色主题",
+      "label": "主题风格",
       "options": {
         "sic": {
-          "label": "SIC",
-          "tooltip": "<strong>(S)</strong>tandard <strong>(I)</strong>ssue <strong>(C)</strong>olor 主题。"
+          "label": "标准",
+          "tooltip": "标准配色主题"
         },
         "mina": {
           "label": "Mina",
-          "tooltip": "\"我的 Showdex 在哪里？？？？？<br />……另外，请把它变成粉色\" <ndash /><em>鬼脸</em>, 2023<br />ಠ╭╮ಠ"
+          "tooltip": "\"我的 Showdex 在哪里？？？？？<br />……顺便能把它变成粉色吗\" <ndash /><em>鬼脸</em>, 2023<br />ಠ╭╮ಠ"
         }
       }
     },
 
     "glassyTerrain": {
-      "label": "玻璃质感",
-      "tooltip": "如果启用，将在所有 $t(common:products.showdex) 面板上，包括在 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 模式下的 $t(common:products.calcdex_other)，适当地应用轻微的背景模糊。<br /><br />请注意，这是一个对 CPU 负载较大的图形设置，可能会在低配置机器上导致不愉快的卡顿。<br /><br />请自行承担风险启用！"
+      "label": "毛玻璃效果",
+      "tooltip": "启用后，所有 $t(common:products.showdex) 面板（包括<strong>悬浮模式</strong>下的 $t(common:products.calcdex_other)）将应用背景模糊效果。<br /><br />注意：此功能可能会占用较多系统资源，在配置较低的设备上可能导致卡顿。<br /><br />请谨慎启用！"
     },
 
     "developerMode": {
       "label": "开发者模式",
-      "tooltip": "<em>这是一个计划中的功能。</em><br /><em>如果你是一个极客，敬请期待！</em>"
+      "tooltip": "<em>此功能正在开发中。</em><br /><em>如果你是一个极客，敬请期待！</em>"
     }
   },
 
   "hellodex": {
     "openOnStart": {
-      "label": "当 $t(common:products.showdown) 启动时打开",
-      "tooltip": "<em>这实际上是一个计划中的功能！</em><br /><em>如果你在想，如果我禁用了这个，我该如何再次访问这些设置，答案是...</em><br /><em>敬请期待！</em>"
+      "label": "启动时自动打开",
+      "tooltip": "<em>此功能正在开发中！</em><br /><em>如果你在想禁用后如何再次访问这些设置...</em><br /><em>敬请期待！</em>"
     },
 
     "focusRoomsRoom": {
       "label": "显示聊天室面板",
-      "tooltip": "当 $t(common:products.showdown) 首次启动时，是否会想念默认的聊天室面板？禁用此选项不会自动聚焦到 $t(common:products.hellodex_one) 标签。<br /><br />这不影响 <strong>单面板</strong> 用户。"
+      "tooltip": "在 $t(common:products.showdown) 首次启动时显示默认聊天室面板。禁用此选项不会自动切换到 $t(common:products.hellodex_one) 标签。<br /><br />此设置不影响<strong>单面板</strong>用户。"
     },
 
     "showBattleRecord": {
-      "label": "显示胜/负计数器",
-      "tooltip": "在 $t(common:products.hellodex_one) 中显示胜/负计数器，以供 <em>娱乐</em>。<br /><br />只记录你已经玩过的游戏（即，忽略观战游戏）的当前 $t(common:products.showdown) 会话。一旦刷新页面，就会重置为 0W-0L。"
+      "label": "显示对战记录",
+      "tooltip": "在 $t(common:products.hellodex_one) 中显示胜负记录（仅供参考）。<br /><br />只统计当前 $t(common:products.showdown) 会话中你参与的对战（不包括观战）。刷新页面后将重置为 0胜-0负。"
     },
 
     "showDonateButton": {
-      "label": "显示捐赠按钮",
-      "tooltip": "在 $t(common:products.hellodex_one) 中显示捐赠按钮。<br /><br />如果你看到这个，你对我们来说非常特别，或者你是一个 1337 hax0r。无论哪种情况，都可以随意关闭这个。"
+      "label": "显示赞助按钮",
+      "tooltip": "在 $t(common:products.hellodex_one) 中显示赞助按钮。<br /><br />如果你看到这个选项，说明你对我们来说很特别，或者你是位高手。无论如何，你可以随时关闭它。"
     }
   },
 
@@ -156,56 +156,56 @@
       "label": "何时打开",
       "options": {
         "playing": {
-          "label": "战斗时",
-          "tooltip": "只在你参与的战斗中打开。"
+          "label": "对战时",
+          "tooltip": "仅在你参与的对战中打开"
         },
         "spectating": {
           "label": "观战时",
-          "tooltip": "只在你观看的战斗中打开。"
+          "tooltip": "仅在你观看的对战中打开"
         },
         "always": {
-          "label": "全部",
-          "tooltip": "始终在所有战斗中打开。"
+          "label": "始终",
+          "tooltip": "在所有对战中打开"
         },
         "never": {
           "label": "从不",
-          "tooltip": "在<em>任何</em>情况下都不打开。"
+          "tooltip": "在<em>任何</em>情况下都不打开"
         }
       }
     },
 
     "openAs": {
-      "label": "开启方式",
+      "label": "打开方式",
       "options": {
         "panel": {
           "label": "面板标签",
-          "tooltip": "如果空间允许，将作为右侧的面板标签打开。否则，打开标签将填满屏幕。只要战斗的标签是打开的，就会进行同步。<br /><br />推荐给 <em>左右面板</em> 用户。"
+          "tooltip": "如果空间允许，将作为右侧的面板标签打开。否则，标签将填满屏幕。只要对战标签保持打开状态，就会进行同步。<br /><br />推荐给<em>左右面板</em>用户。"
         },
         "overlay": {
-          "label": "聊天栏覆盖",
-          "tooltip": "作为战斗信息栏的覆盖层打开。初始隐藏，直到你在战斗控制中点击 <em>打开 $t(common:products.calcdex_one)</em>。<br /><br />一旦战斗关闭，嵌入的 $t(common:products.calcdex_one) 将从内存中清除，此时不能从 $t(common:products.hellodex_one) 重新打开。<br /><br />推荐给 <em>单面板</em> 用户或者那些在玩游戏时闲逛聊天室的用户。"
+          "label": "悬浮模式",
+          "tooltip": "作为对战信息栏的覆盖层打开。初始隐藏，直到你在对战控制中点击<em>打开 $t(common:products.calcdex_one)</em>。<br /><br />一旦对战关闭，嵌入的 $t(common:products.calcdex_one) 将从内存中清除，此时不能从 $t(common:products.hellodex_one) 重新打开。<br /><br />推荐给<em>单面板</em>用户或在游戏时浏览聊天室的用户。"
         },
         "showdown": {
           "label": "自动",
-          "tooltip": "如果你的 $t(common:products.showdown) 的布局使用 <em>左右面板</em>，则使用 <strong>$t(calcdex.openAs.options.panel.label)</strong>；如果使用 <em>单面板</em>，则使用 <strong>$t(calcdex.openAs.options.overlay.label)</strong>。<br /><br />将鼠标悬停在这些特定选项上以了解更多信息。"
+          "tooltip": "如果你的 $t(common:products.showdown) 布局使用<em>左右面板</em>，则使用<strong>面板标签</strong>；如果使用<em>单面板</em>，则使用<strong>悬浮模式</strong>。<br /><br />将鼠标悬停在这些具体选项上以了解更多信息。"
         }
       }
     },
 
     "openOnPanel": {
-      "label": "开启位置",
+      "label": "打开位置",
       "options": {
         "left": {
           "label": "左侧面板",
-          "tooltip": "在<strong>左侧</strong>打开 $t(common:products.calcdex_one) 面板标签，无论战斗是配置在哪一侧打开的。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)。"
+          "tooltip": "在<strong>左侧</strong>打开 $t(common:products.calcdex_one) 面板标签，无论对战配置在哪一侧打开。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
         },
         "right": {
           "label": "右侧面板",
-          "tooltip": "在<strong>右侧</strong>打开 $t(common:products.calcdex_one) 面板标签，无论战斗是配置在哪一侧打开的。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)。"
+          "tooltip": "在<strong>右侧</strong>打开 $t(common:products.calcdex_one) 面板标签，无论对战配置在哪一侧打开。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
         },
         "showdown": {
           "label": "自动",
-          "tooltip": "如果你的战斗在 $t(common:products.showdown) 中配置为在 <em>左侧</em> 打开，那么在<strong>右侧</strong>打开 $t(common:products.calcdex_one) 面板标签，反之亦然。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)。"
+          "tooltip": "如果你的对战在 $t(common:products.showdown) 中配置为在<em>左侧</em>打开，则在<strong>右侧</strong>打开 $t(common:products.calcdex_one) 面板标签，反之亦然。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
         }
       }
     },
@@ -214,39 +214,39 @@
       "label": "何时关闭标签",
       "options": {
         "battle-end": {
-          "label": "战斗结束",
-          "tooltip": "战斗结束后关闭 $t(common:products.calcdex_one) 面板标签。<br /><br />除非 <em>$t(calcdex.destroyOnClose.label)</em> 打开，否则可以从 $t(common:products.hellodex_one) 重新打开已关闭的标签。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)。"
+          "label": "对战结束时",
+          "tooltip": "对战结束后关闭 $t(common:products.calcdex_one) 面板标签。<br /><br />除非启用了<em>关闭时清理内存</em>，否则可以从 $t(common:products.hellodex_one) 重新打开已关闭的标签。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
         },
         "battle-tab": {
-          "label": "战斗关闭",
-          "tooltip": "当战斗标签关闭时，关闭 $t(common:products.calcdex_one) 面板标签。<br /><br />除非 <em>$t(calcdex.destroyOnClose.label)</em> 打开，否则可以从 $t(common:products.hellodex_one) 重新打开已关闭的标签。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)。"
+          "label": "对战标签关闭时",
+          "tooltip": "当对战标签关闭时，关闭 $t(common:products.calcdex_one) 面板标签。<br /><br />除非启用了<em>关闭时清理内存</em>，否则可以从 $t(common:products.hellodex_one) 重新打开已关闭的标签。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
         },
         "never": {
           "label": "从不",
-          "tooltip": "禁用基于战斗状态自动关闭 $t(common:products.calcdex_one) 面板标签。<br />相反，每次都必须手动关闭 $t(common:products.calcdex_one)。<br /><br />除非 <em>$t(calcdex.destroyOnClose.label)</em> 打开，否则可以从 $t(common:products.hellodex_one) 重新打开已关闭的标签。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)。"
+          "tooltip": "禁用基于对战状态自动关闭 $t(common:products.calcdex_one) 面板标签。<br />需要手动关闭 $t(common:products.calcdex_one)。<br /><br />除非启用了<em>关闭时清理内存</em>，否则可以从 $t(common:products.hellodex_one) 重新打开已关闭的标签。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
         }
       }
     },
 
     "destroyOnClose": {
-      "label": "标签关闭后清理内存",
-      "tooltip": "战斗结束后清理 $t(common:products.calcdex_one) 使用的内存。一旦清理，$t(common:products.calcdex_one) 不能从 $t(common:products.hellodex_one) 重新打开。<br /><br />启用此功能可能会提高低配置机器的性能。<br /><br />不影响那些 <em>$t(calcdex.openAs.label)</em> 一个 <strong>$t(calcdex.openAs.options.overlay.label)</strong> 的 $t(common:products.calcdex_other)，因为他们的内存会在战斗结束后立即清理。"
+      "label": "关闭时清理内存",
+      "tooltip": "对战结束后清理 $t(common:products.calcdex_one) 使用的内存。一旦清理，$t(common:products.calcdex_one) 不能从 $t(common:products.hellodex_one) 重新打开。<br /><br />启用此功能可能会提高低配置机器的性能。<br /><br />不影响使用<strong>悬浮模式</strong>的 $t(common:products.calcdex_other)。"
     },
 
     "downloadPresets": {
-      "label": "下载配置",
+      "label": "下载预设",
       "options": {
         "smogon": {
           "label": "Smogon",
-          "tooltip": "下载新更新的Smogon配置，适用于OU等非随机格式。将下载该世代所有可用规则的所有配置。<br /><br />禁用此功能可能会提高低规格机器的性能。"
+          "tooltip": "下载最新的 Smogon 预设配置，适用于 OU 等非随机对战模式。将下载当前世代所有可用规则的全部预设。<br /><br />禁用此功能可能会提高低配置设备的性能。"
         },
         "randoms": {
           "label": "随机",
-          "tooltip": "下载最新更新的官方随机对战规则的随机配置，这些配置是从一个轮换的池中选取的，其中一些包含基于世代的特殊配置。对非官方规则（如Randomized Format Spotlight）的支持可能有限或不存在。<br /><br />禁用此功能可能会<em>稍微</em>提高低规格机器的性能。"
+          "tooltip": "下载最新的官方随机对战预设，这些预设来自一个轮换池，其中部分包含特定世代的专属配置。对非官方规则（如 Randomized Format Spotlight）的支持可能有限或不存在。<br /><br />禁用此功能可能会<em>稍微</em>提高低配置设备的性能。"
         },
         "usage": {
-          "label": "Showdown推荐",
-          "tooltip": "下载最新更新的$t(common:products.showdown)标准规则的使用统计数据和随机的池概率，这些将显示在能力、道具和招式旁边。<br /><br />另外，在非随机规则中，将提供一个从使用统计数据派生的额外配置，称为<em>Showdown推荐</em>。<br /><br />禁用此功能可能会<em>稍微</em>提高低规格机器的性能。"
+          "label": "Showdown 推荐",
+          "tooltip": "下载最新的 $t(common:products.showdown) 标准规则使用率数据和随机池概率，这些数据会显示在特性、道具和招式旁边。<br /><br />此外，在非随机规则中，将提供一个基于使用率数据生成的额外预设，称为<em>Showdown 推荐</em>。<br /><br />禁用此功能可能会<em>稍微</em>提高低配置设备的性能。"
         }
       }
     },
@@ -258,48 +258,47 @@
           "label_one": "{{count}} 天",
           "label_other": "{{count}} 天",
           "label_interval": "(7)[1 周];(14)[2 周];(21)[3 周];(30-31)[1 个月];",
-          "tooltip": "下载设置并在 <strong>$t(calcdex.maxPresetAge.options.$count.label, { \"count\": {{count}} })</strong> 内重复使用，持续在 $t(common:products.showdown) 会话之间。<br /><br />启用此功能可能会提高 $t(common:products.calcdex_one) 的初始化性能。"
+          "tooltip": "下载预设并在 <strong>$t(calcdex.maxPresetAge.options.$count.label, { \"count\": {{count}} })</strong> 内重复使用，在多个 $t(common:products.showdown) 会话间保持。<br /><br />启用此功能可能会提高 $t(common:products.calcdex_one) 的初始化性能。"
         },
         "0": {
           "label": "从不",
-          "tooltip": "每个会话下载一次设置，但不在会话之间存储。这意味着下次打开 $t(common:products.showdown) 时将再次下载设置。<br /><br />如果缓存中已有设置，选择此选项将 <strong>清除</strong> 整个缓存。<br /><br />这是 v1.1.6 之前的默认行为。<br />(顺便说一句，你现在的版本是 v{{version}}!)"
+          "tooltip": "每个会话下载一次预设，但不在会话间保存。这意味着下次打开 $t(common:products.showdown) 时将重新下载预设。<br /><br />如果缓存中已有预设，选择此选项将<strong>清除</strong>整个缓存。<br /><br />这是 v1.1.6 之前的默认行为。<br />（顺便说一句，你当前的版本是 v{{version}}！）"
         }
       }
     },
 
-"includeTeambuilder": {
-      "label": "包含Teambuilder",
+    "includeTeambuilder": {
+      "label": "包含队伍构建器",
       "options": {
         "teams": {
-          "label": "Teams",
-          "tooltip": "只包含你本地存储的Teambuilder中的<strong>Teams</strong>，但不包括Boxes。这些将在你和你的对手（或观战玩家）的宝可梦的设置下拉菜单中可用。<br /><br />以 \"Untitled\" 开头的Teams或者招式为空/未完成的 $t(pokedex:stats.evs_other.1) 的宝可梦（如果适用）将被忽略。"
+          "label": "队伍",
+          "tooltip": "仅包含你本地存储的队伍构建器中的<strong>队伍</strong>，不包括盒子。这些预设将在你和对手（或观战目标）的宝可梦设置下拉菜单中可用。<br /><br />名称以 \"Untitled\" 开头的队伍或招式为空/未完成的 $t(pokedex:stats.evs_other.1) 的宝可梦（如果适用）将被忽略。"
         },
         "boxes": {
-          "label": "Boxes",
-          "tooltip": "只包含你本地存储的Teambuilder中的<strong>Boxes</strong>，但不包括Teams。这些将在你和你的对手（或观战玩家）的宝可梦的设置下拉菜单中可用。<br /><br />这些Boxes中招式为空/未完成的 $t(pokedex:stats.evs_other.1) 的宝可梦（如果适用）将被忽略。"
+          "label": "盒子",
+          "tooltip": "仅包含你本地存储的队伍构建器中的<strong>盒子</strong>，不包括队伍。这些预设将在你和对手（或观战目标）的宝可梦设置下拉菜单中可用。<br /><br />盒子中招式为空/未完成的 $t(pokedex:stats.evs_other.1) 的宝可梦（如果适用）将被忽略。"
         },
         "always": {
-          "label": "两者",
-          "tooltip": "包含你本地存储的Teambuilder中的<strong>Teams和Boxes</strong>。这些设置将在你和你的对手（或观战玩家）的宝可梦的设置下拉菜单中可用。<br /><br />以 \"Untitled\" 开头的Teams或者招式集为空/未完成的 $t(pokedex:stats.evs_other.1) 的宝可梦（如果适用）将被忽略。"
+          "label": "全部",
+          "tooltip": "包含你本地存储的队伍构建器中的<strong>队伍和盒子</strong>。这些预设将在你和对手（或观战目标）的宝可梦设置下拉菜单中可用。<br /><br />名称以 \"Untitled\" 开头的队伍或招式为空/未完成的 $t(pokedex:stats.evs_other.1) 的宝可梦（如果适用）将被忽略。"
         },
         "never": {
           "label": "从不",
-          "tooltip": "忽略你本地存储的Teambuilder中的Teams和Boxes的设置。"
+          "tooltip": "忽略你本地存储的队伍构建器中的队伍和盒子预设。"
         }
       }
     },
-
     "includePresetsBundles": {
-      "label": "加载的Bundled配置",
+      "label": "已加载的预设包",
       "tooltip": {
-        "author": "by {{name}}",
-        "updated": "<em>更新日期 {{date}}</em>"
+        "author": "作者：{{name}}",
+        "updated": "<em>更新于 {{date}}</em>"
       }
     },
 
     "includeOtherMetaPresets": {
-      "label": "始终包含来自OMs的配置",
-      "tooltip": "包括来自Other Metagame (OM)规则（如Balanced Hackmons (BH)）的任何可用配置。"
+      "label": "始终包含其他模式预设",
+      "tooltip": "包含来自其他对战模式（OM）规则（如 Balanced Hackmons (BH)）的所有可用预设。"
     },
 
     "prioritizePresetSource": {
@@ -307,21 +306,22 @@
       "options": {
         "smogon": {
           "label": "Smogon",
-          "tooltip": "优先使用 适配的Bundled/Smogon官方 配置，在<em>Showdown推荐</em><rarr />Teambuilder Teams/Boxes<strong>前</strong>。"
+          "tooltip": "优先使用 预设包/Smogon官方 的配置，优先于<em>Showdown 推荐</em>和队伍构建器的队伍/盒子。"
         },
         "usage": {
-          "label": "Usage",
-          "tooltip": "优先使用 <em>Showdown推荐</em> 配置，在Bundled/Smogon <rarr />Teambuilder Teams/Boxes<strong>前</strong>。不适用于随机模式。"
+          "label": "使用率",
+          "tooltip": "优先使用 <em>Showdown 推荐</em> 配置，优先于 预设包/Smogon官方和队伍构建器的队伍/盒子。不适用于随机对战模式。"
         },
         "storage": {
-          "label": "Teambuilder",
-          "tooltip": "优先使用 Teambuilder Teams/Boxes 配置，在Bundled/Smogon <rarr /> <em>Showdown推荐</em> <strong>前</strong>。不适用于随机模式。"
+          "label": "队伍构建器",
+          "tooltip": "优先使用队伍构建器中的队伍/盒子配置，优先于 预设包/Smogon官方和 <em>Showdown 推荐</em>。不适用于随机对战模式。"
         }
       }
     },
+
     "autoImportTeamSheets": {
       "label": "导入队伍表",
-      "tooltip": "导入并应用来自开放队伍表（OTS），标准VGC格式，或者 <code>!showteam</code> $t(common:products.showdown) 聊天命令的设置。<br /><br />注意，OTS 可能会省略分配，即$t(pokedex:stats.ivs_other.1)，$t(pokedex:stats.evs_other.1) 和性格。在这种情况下，OTS不会被转换成队伍配置，而是被用作已公开的信息，以便允许其他配置中分配使用。"
+      "tooltip": "导入并应用来自公开队伍表（OTS）、标准 VGC 格式或 <code>!showteam</code> $t(common:products.showdown) 聊天命令的设置。<br /><br />注意：OTS 可能会省略数值分配（即 $t(pokedex:stats.ivs_other.1)、$t(pokedex:stats.evs_other.1) 和性格）。在这种情况下，OTS 不会被转换为队伍预设，而是作为已公开信息供其他预设的数值分配使用。"
     },
 
     "authPosition": {
@@ -329,29 +329,29 @@
       "options": {
         "top": {
           "label": "顶部",
-          "tooltip": "在游戏中，无论 $t(common:products.showdown) 的指定玩家顺序如何，你的宝可梦都将位于 <strong>上半部分</strong>。<br /><br />如果是观战，则无效，在这种情况下，将使用 $t(common:products.showdown) 的排序。"
+          "tooltip": "在对战中，无论 $t(common:products.showdown) 的玩家顺序如何，你的宝可梦都将显示在<strong>上半部分</strong>。<br /><br />观战模式下无效，将使用 $t(common:products.showdown) 的默认排序。"
         },
         "bottom": {
           "label": "底部",
-          "tooltip": "在游戏中，无论 $t(common:products.showdown) 的指定玩家顺序如何，你的宝可梦都将位于 <strong>下半部分</strong>。<br /><br />如果是观战，则无效，在这种情况下，将使用 $t(common:products.showdown) 的排序。"
+          "tooltip": "在对战中，无论 $t(common:products.showdown) 的玩家顺序如何，你的宝可梦都将显示在<strong>下半部分</strong>。<br /><br />观战模式下无效，将使用 $t(common:products.showdown) 的默认排序。"
         },
         "auto": {
           "label": "自动",
-          "tooltip": "你的宝可梦的位置将根据 $t(common:products.showdown) 的指定玩家顺序，<em>Player 1</strong> 在 <strong>$t(calcdex.authPosition.options.top.label)</strong>，<em>Player 2</strong> 在 <strong>$t(calcdex.authPosition.options.bottom.label)</strong>。<br /><br />如果是观战，则无效，在这种情况下，将使用 $t(common:products.showdown) 的排序。"
+          "tooltip": "你的宝可梦位置将跟随 $t(common:products.showdown) 的玩家顺序，<em>玩家 1</em> 在<strong>$t(calcdex.authPosition.options.top.label)</strong>，<em>玩家 2</em> 在<strong>$t(calcdex.authPosition.options.bottom.label)</strong>。<br /><br />观战模式下无效，将使用 $t(common:products.showdown) 的默认排序。"
         }
       }
     },
 
     "defaultAutoSelect": {
-      "label": "切换宝可梦",
+      "label": "自动切换宝可梦",
       "options": {
         "auth": {
           "label": "己方",
-          "tooltip": "自动切换到你在场上的活跃宝可梦。禁用此选项并不会禁用自动切换机制本身，只是初始时将其关闭。"
+          "tooltip": "自动切换到你场上的活跃宝可梦。禁用此选项不会完全禁用自动切换功能，只是初始状态下关闭。"
         },
         "player": {
           "label": "对手",
-          "tooltip": "自动切换到你的对手（或观战玩家）在场上的活跃宝可梦。禁用此选项并不会禁用自动切换机制本身，只是初始时将其关闭。"
+          "tooltip": "自动切换到对手（或观战目标）场上的活跃宝可梦。禁用此选项不会完全禁用自动切换功能，只是初始状态下关闭。"
         }
       }
     },
@@ -361,15 +361,15 @@
       "options": {
         "base": {
           "label": "$t(pokedex:stats.base_one.1)",
-          "tooltip": "始终显示你的宝可梦的 $t(pokedex:stats.base_other.0)。禁用此选项将隐藏它们，直到你点击 <em>$t(common:labels.show)</em>。"
+          "tooltip": "始终显示你的宝可梦的 $t(pokedex:stats.base_other.0)。禁用此选项将隐藏 $t(pokedex:stats.base_other.0)，直到点击<em>$t(common:labels.show)</em>。"
         },
         "iv": {
           "label": "$t(pokedex:stats.ivs_other.1)",
-          "tooltip": "始终显示你的宝可梦的 $t(pokedex:stats.ivs_other.1)。也适用于旧版游戏中的 $t(pokedex:stats.dvs_other.1)。禁用此选项将隐藏它们，直到你点击 <em>$t(common:labels.show)</em>。"
+          "tooltip": "始终显示你的宝可梦的 $t(pokedex:stats.ivs_other.0)。同样适用于旧世代的 $t(pokedex:stats.ivs_other.0)。禁用此选项将隐藏 $t(pokedex:stats.ivs_other.0)，直到点击<em>$t(common:labels.show)</em>。"
         },
         "ev": {
           "label": "$t(pokedex:stats.evs_other.1)",
-          "tooltip": "始终显示你的宝可梦的 $t(pokedex:stats.evs_other.1)。在旧版游戏中无效，除非启用了 <em>$t(calcdex.showLegacyEvs.label)</em>。禁用此选项将隐藏它们，直到你点击 <em>$t(common:labels.show)</em>。"
+          "tooltip": "始终显示你的宝可梦的 $t(pokedex:stats.evs_other.0)。在旧世代中仅当启用了<em>$t(calcdex.showLegacyEvs.label)</em>时有效。禁用此选项将隐藏 $t(pokedex:stats.evs_other.0)，直到点击<em>$t(common:labels.show)</em>。"
         }
       }
     },
@@ -379,119 +379,119 @@
       "options": {
         "base": {
           "label": "$t(pokedex:stats.base_one.1)",
-          "tooltip": "始终显示你的对手（或观战玩家）的宝可梦的 $t(pokedex:stats.base_other.0)。禁用此选项将隐藏它们，直到你点击 <em>$t(common:labels.show)</em>。"
+          "tooltip": "始终显示对手（或观战目标）宝可梦的 $t(pokedex:stats.base_other.0)。禁用此选项将隐藏 $t(pokedex:stats.base_other.0)，直到点击<em>$t(common:labels.show)</em>。"
         },
         "iv": {
           "label": "$t(pokedex:stats.ivs_other.1)",
-          "tooltip": "始终显示你的对手（或观战玩家）的宝可梦的 $t(pokedex:stats.ivs_other.1)。也适用于旧版游戏中的 $t(pokedex:stats.dvs_other.1)。禁用此选项将隐藏它们，直到你点击 <em>$t(common:labels.show)</em>。"
+          "tooltip": "始终显示对手（或观战目标）宝可梦的 $t(pokedex:stats.ivs_other.0)。同样适用于旧世代的 $t(pokedex:stats.ivs_other.0)。禁用此选项将隐藏 $t(pokedex:stats.ivs_other.0)，直到点击<em>$t(common:labels.show)</em>。"
         },
         "ev": {
           "label": "$t(pokedex:stats.evs_other.1)",
-          "tooltip": "始终显示你的对手（或观战玩家）的宝可梦的 $t(pokedex:stats.evs_other.1)。在旧版游戏中无效，除非启用了 <em>$t(calcdex.showLegacyEvs.label)</em>。禁用此选项将隐藏它们，直到你点击 <em>$t(common:labels.show)</em>。"
+          "tooltip": "始终显示对手（或观战目标）宝可梦的 $t(pokedex:stats.evs_other.0)。在旧世代中仅当启用了<em>$t(calcdex.showLegacyEvs.label)</em>时有效。禁用此选项将隐藏 $t(pokedex:stats.evs_other.0)，直到点击<em>$t(common:labels.show)</em>。"
         }
       }
     },
 
     "showPlayerRatings": {
-      "label": "Elo评级",
-      "tooltip": "如果可用，显示每个玩家的Elo评级，用户名旁边显示。"
+      "label": "显示天梯分",
+      "tooltip": "在玩家用户名旁显示其天梯分（如果可用）。"
     },
 
     "openSmogonPage": {
-      "label": "链接到Smogon图鉴条目",
-      "tooltip": "当点击宝可梦的图标时，以弹出窗口的形式打开宝可梦的Smogon图鉴条目。"
+      "label": "链接到 Smogon 图鉴",
+      "tooltip": "点击宝可梦图标时，在新窗口打开该宝可梦的 Smogon 图鉴页面。"
     },
 
     "showNicknames": {
-      "label": "宝可梦昵称",
-      "tooltip": "如果有的话，显示宝可梦的昵称。"
+      "label": "显示昵称",
+      "tooltip": "显示宝可梦的昵称（如果有）。"
     },
 
     "forceNonVolatile": {
-      "label": "始终显示宝可梦状态",
-      "tooltip": "始终显示宝可梦的非易失性状态（例如，$t(pokedex:nonvolatiles.brn.2)，$t(pokedex:nonvolatiles.par.2)等），即使它没有，也会显示 \"$t(pokedex:nonvolatiles.ok.2)\"。"
+      "label": "始终显示状态",
+      "tooltip": "始终显示宝可梦的非易失性状态（如$t(pokedex:nonvolatiles.brn.2)、$t(pokedex:nonvolatiles.par.2)等），没有状态时显示\"$t(pokedex:nonvolatiles.ok.2)\"。"
     },
 
     "showSpreadsFirst": {
-      "label": "优先显示可获取的数值分配",
-      "tooltip": "如果宝可梦的惯用配置或使用统计数据有任何可获取的分配，将显示数值分配（代替性格）。<br /><br />当数值分配可获取时，会显示一个切换按钮来在数值分配和性格之间进行切换，无论此设置如何。<br /><br />Show Available Spreads First<br /><br />Shows spreads (in place of natures) if any are available from the Pokémon's applied set or usage stats.<br /><br />When spreads are available, a toggle to switch between spreads & natures will be shown, regardless of this setting."
+      "label": "优先显示数值分配",
+      "tooltip": "当宝可梦的当前预设或使用率数据中有可用的数值分配时，优先显示数值分配（而不是性格）。<br /><br />当有可用的数值分配时，无论此设置如何，都会显示一个在数值分配和性格之间切换的按钮。"
     },
 
     "defaultAutoMoves": {
-      "label": "填充招式",
-      "tooltip": "在战斗中，随着对手（或观战玩家）的宝可梦的实际操作，填充招式列表，替换默认招式列表中的招式。"
+      "label": "自动填充招式",
+      "tooltip": "在对战中，根据对手（或观战目标）宝可梦实际使用的招式，自动更新招式列表，替换默认招式。"
     },
 
     "defaultAutoPreset": {
-      "label": "猜测最佳配置",
-      "tooltip": "根据对手（或观战玩家）宝可梦的<strong>可用配置</strong>和战斗中揭示的信息，确定并切换到最可能的配置。<br /><br />当猜测缩小到单一配置时，配置下拉列表中的<em>$t(common:labels.auto)</em>开关将变为<green>{{color}}</green>（或者您的<strong>$t(calcdex.nhkoColors.label)</strong>中的第一个颜色）。否则，开关将保持<blue>蓝色</blue>，选中时将禁用自动配置选择，使其变灰。<br /><br />这是该功能的<strong>初步</strong>实现，仅包含第一部分：已揭示的信息。此外，它只能使用可用的内容，所以猜测的准确性取决于可用的配置。因此，不言而喻：<strong>强烈建议玩家谨慎使用！！！</strong>",
+      "label": "自动预测配置",
+      "tooltip": "根据对手（或观战目标）宝可梦的<strong>可用预设</strong>和对战中揭示的信息，自动判断并切换到最可能的预设。<br /><br />当猜测范围缩小到单一预设时，预设下拉列表中的<em>$t(common:labels.auto)</em>开关将变为<green>{{color}}</green>（或你的<strong>$t(calcdex.nhkoColors.label)</strong>中的第一个颜色）。否则，开关将保持<blue>蓝色</blue>，选中时将暂时禁用自动预设选择。<br /><br />这是该功能的<strong>初步</strong>实现，目前仅包含第一阶段：已揭示信息的判断。此外，它只能使用可用的预设内容，因此猜测的准确性取决于可用的预设数据。<strong>请谨慎使用此功能！</strong>",
       "green": "绿色"
     },
 
     "enableQuickEditor": {
       "label": "快速编辑招式效果",
-      "tooltip": "允许你快速编辑多次攻击招式的命中次数，例如 <em>冰锥</em>，并切换 <em>力量交换</em> 的激活状态。"
+      "tooltip": "允许快速编辑多段攻击招式的命中次数（如<em>冰锥</em>）以及切换<em>力量交换</em>的激活状态。"
     },
 
     "showNonDamageRanges": {
-      "label": "零伤害范围",
-      "tooltip": "显示伤害范围是 <strong>$t(common:labels.na)</strong> 或 <strong>免疫</strong> 的。"
+      "label": "显示零伤害范围",
+      "tooltip": "显示伤害范围为<strong>$t(common:labels.na)</strong>或<strong>免疫</strong>的情况。"
     },
 
-"showTooltips": {
-      "label": "悬停提示",
+    "showTooltips": {
+      "label": "显示提示",
       "options": {
         "ui": {
           "label": "$t(pane.sections.secondary.interface)",
-          "tooltip": "当鼠标悬停在UI的按钮上时，显示解释性的提示框（就像这个一样）。<br /><br />如果你已经是一个 $t(common:products.calcdex_one) 的专家并且已经知道所有的功能，可以禁用这个选项。"
+          "tooltip": "当鼠标悬停在界面按钮上时显示说明提示（如本提示）。<br /><br />如果你已经熟悉 $t(common:products.calcdex_one) 的所有功能，可以禁用此选项。"
         },
         "preset": {
           "label": "$t(calcdex:poke.info.preset.label)",
-          "tooltip": "在下拉列表中，显示PokéPaste的hovered配置。"
+          "tooltip": "在下拉列表中显示鼠标悬停的预设的详细信息。"
         },
         "ability": {
           "label": "$t(pokedex:headers.ability_one)",
-          "tooltip": "在下拉列表中，当鼠标悬停在能力上时，显示该能力的简短描述。"
+          "tooltip": "在下拉列表中，当鼠标悬停在特性上时显示其简短描述。"
         },
         "item": {
           "label": "$t(pokedex:headers.item_one)",
-          "tooltip": "在下拉列表中，当鼠标悬停在道具上时，显示该道具的简短描述。"
+          "tooltip": "在下拉列表中，当鼠标悬停在道具上时显示其简短描述。"
         },
         "move": {
           "label": "$t(pokedex:headers.move_one)",
-          "tooltip": "在下拉列表中，当鼠标悬停在招式上时，显示该招式的简短描述和快速统计信息（例如：属性，类别，BP）。"
+          "tooltip": "在下拉列表中，当鼠标悬停在招式上时显示其简短描述和基本信息（如属性、分类、威力等）。"
         },
         "matchup": {
           "label": "$t(pane.sections.secondary.matchup_one)",
-          "tooltip": "当鼠标悬停在伤害范围上时，显示来自原始伤害计算器的招式对战的描述。"
+          "tooltip": "当鼠标悬停在伤害范围上时，显示来自原始伤害计算器的对战描述。"
         },
         "field": {
           "label": "$t(pokedex:headers.field)",
-          "tooltip": "当鼠标悬停在中间场地部分的屏幕，天气和场地上时，显示简短的描述。"
+          "tooltip": "当鼠标悬停在场地部分的场地、天气和地形上时，显示简短描述。"
         }
       }
     },
 
     "prettifyMatchupDescription": {
       "label": "美化对战描述",
-      "tooltip": "通过应用一些温和的格式化和间距，使对战描述更容易快速查看。"
+      "tooltip": "通过添加适当的格式和间距，使对战描述更易于阅读。"
     },
 
     "copyMatchupDescription": {
-      "label": "点击时复制对战信息",
-      "tooltip": "当点击伤害范围时，将<em>未美化的</em>（如果启用），<em>原始的</em>对战描述复制到你的剪贴板。<br /><br />如果你喜欢在屏幕上突出显示你正在阅读的内容，就禁用这个。"
+      "label": "点击复制对战信息",
+      "tooltip": "点击伤害范围时，将<em>未美化的</em>（如果启用）<em>原始</em>对战描述复制到剪贴板。<br /><br />如果你更喜欢在屏幕上突出显示正在阅读的内容，可以禁用此选项。"
     },
 
     "showMatchupDamageAmounts": {
       "label": "显示伤害量",
       "options": {
         "always": {
-          "label": "总是",
-          "tooltip": "总是在对战提示中显示可能的伤害量。"
+          "label": "始终",
+          "tooltip": "始终在对战提示中显示可能的伤害量。"
         },
         "nfe": {
-          "label": "NFE",
-          "tooltip": "Shows possible damage amounts only between Not Fully Evolved (NFE) Pokémon in the matchup tooltip."
+          "label": "未完全进化",
+          "tooltip": "仅在对战提示中显示未完全进化（NFE）宝可梦之间的可能伤害量。"
         },
         "never": {
           "label": "从不",
@@ -502,41 +502,41 @@
 
     "formatMatchupDamageAmounts": {
       "label": "伤害量百分比",
-      "tooltip": "合并显示不同随机数的相同伤害。<br /><br />如果有超过5个伤害值，将不会显示百分比，以避免列表过长"
+      "tooltip": "合并显示相同伤害值的不同随机数结果。<br /><br />如果有超过 5 个不同的伤害值，将不显示百分比以避免列表过长。"
     },
 
     "editPokemonTypes": {
-      "label": "编辑属性",
+      "label": "编辑宝可梦属性",
       "options": {
         "always": {
-          "label": "总是",
-          "tooltip": "点击时允许编辑宝可梦的属性。"
+          "label": "始终",
+          "tooltip": "点击时允许编辑宝可梦的属性"
         },
         "meta": {
-          "label": "OMs",
-          "tooltip": "只在点击时允许在非标准Other Metagame（OM）规则中编辑宝可梦的属性。"
+          "label": "其他模式",
+          "tooltip": "仅在非标准的其他对战模式（OM）规则中允许编辑宝可梦的属性"
         },
         "never": {
           "label": "从不",
-          "tooltip": "禁用编辑宝可梦的属性。"
+          "tooltip": "禁止编辑宝可梦的属性"
         }
       }
     },
 
     "allowIllegalSpreads": {
-      "label": "允许非法个体、努力值",
+      "label": "允许非法 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)",
       "options": {
-          "always": {
-            "label": "总是",
-            "tooltip": "在任何规则中都允许非法的 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)。<br /><br />这不适用于旧版游戏中的 $t(pokedex:stats.dvs_other.1)，其中仍将强制执行 <strong>15</strong> 的限制。<br /><br />最低可能值为 <strong>0</strong>，最高值任意设定为 <strong>999</strong>。"
-          },
-          "meta": {
-            "label": "OMs",
-            "tooltip": "仅在非标准Other Metagame（OM）规则中允许非法的 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)。<br /><br />将鼠标悬停在 <strong>$t(calcdex.allowIllegalSpreads.options.always.label)</strong> 选项上，了解更多关于非法分布的信息。"
-          },
+        "always": {
+          "label": "始终",
+          "tooltip": "在任何规则中都允许非法的 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)。<br /><br />这不适用于旧版游戏中的 $t(pokedex:stats.dvs_other.1)，其中仍将强制执行<strong>15</strong>的限制。<br /><br />最低可能值为<strong>0</strong>，最高值设为<strong>999</strong>。"
+        },
+        "meta": {
+          "label": "其他模式",
+          "tooltip": "仅在非标准的其他对战模式（OM）规则中允许非法的 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)。<br /><br />将鼠标悬停在<strong>$t(calcdex.allowIllegalSpreads.options.always.label)</strong>选项上，了解更多关于非法分布的信息。"
+        },
         "never": {
           "label": "从不",
-          "tooltip": "在任何规则中都不允许非法的 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)。<br /><br />$t(pokedex:stats.ivs_other.1) 的最低可能值为 <strong>0</strong>，最高值为 <strong>31</strong>；$t(pokedex:stats.evs_other.1) 的最低可能值为 <strong>0</strong>，最高值为 <strong>252</strong>。"
+          "tooltip": "在任何规则中都不允许非法的 $t(pokedex:stats.ivs_other.1)/$t(pokedex:stats.evs_other.1)。<br /><br />$t(pokedex:stats.ivs_other.1) 的范围为<strong>0-31</strong>；$t(pokedex:stats.evs_other.1) 的范围为<strong>0-252</strong>。"
         }
       }
     },
@@ -545,12 +545,12 @@
       "label": "编辑 $t(pokedex:stats.base_other.0)",
       "options": {
         "always": {
-          "label": "总是",
-          "tooltip": "在宝可梦的状态表中启用 $t(pokedex:stats.base_one.0) 的编辑。<br /><br />最低可能值为 <strong>1</strong>，最高值任意设定为 <strong>999</strong>。"
+          "label": "始终",
+          "tooltip": "在宝可梦的状态表中启用 $t(pokedex:stats.base_one.0) 的编辑。<br /><br />最低可能值为<strong>1</strong>，最高值设为<strong>999</strong>。"
         },
         "meta": {
-          "label": "OMs",
-          "tooltip": "仅在非标准Other Metagame（OM）规则中启用 $t(pokedex:stats.base_one.0) 的编辑。<br /><br />将鼠标悬停在 <strong>$t(calcdex.showBaseStats.options.always.label)</strong> 选项上，了解更多关于 $t(pokedex:stats.base_one.0) 编辑的信息。"
+          "label": "其他模式",
+          "tooltip": "仅在非标准的其他对战模式（OM）规则中启用 $t(pokedex:stats.base_one.0) 的编辑。<br /><br />将鼠标悬停在<strong>$t(calcdex.showBaseStats.options.always.label)</strong>选项上，了解更多关于 $t(pokedex:stats.base_one.0) 编辑的信息。"
         },
         "never": {
           "label": "从不",
@@ -560,69 +560,70 @@
     },
 
     "resetDirtyBoosts": {
-      "label": "同步时重置阶段提升",
-      "tooltip": "在战斗同步期间，将所有修改过的阶段提升重置为战斗中报告的值。这与点击每个蓝色的阶段提升效果相同，只是自动执行。<br /><br />如果你倾向于忘记在回合之间重置你的宝可梦的阶段提升，推荐使用此设置。<br /><br />(有趣的事实：阶段提升历史上是唯一在设计上在同步之间保持的用户修改值，因此有了这个设置。)"
+      "label": "同步时重置能力等级",
+      "tooltip": "在对战同步期间，将所有修改过的能力等级重置为对战中报告的值。这与点击每个蓝色的能力等级效果相同，只是自动执行。<br /><br />如果你经常忘记在回合之间重置宝可梦的能力等级，推荐使用此设置。<br /><br />（有趣的事实：能力等级历史上是唯一在设计上在同步之间保持的用户修改值，因此有了这个设置。）"
     },
 
     "showLegacyEvs": {
-      "label": "旧版游戏$t(pokedex:stats.evs_other.1)",
-      "tooltip": "在旧版游戏中显示 $t(pokedex:stats.evs_other.1)，允许你为每个宝可梦编辑它们。<br /><br />一些设置（尤其是在随机对战中）可能会为某些状态指定 0 $t(pokedex:stats.evs_other.1)，这可能有助于你了解。<br /><br />尽管在 ADV（第三代）中引入，$t(pokedex:stats.evs_other.1) 在技术上存在于之前的旧版游戏中，通俗地称为 <em>stat experience</em>。由于伤害公式中的四舍五入效应，这个旧系统和现代的 $t(pokedex:stats.evs_other.1) 影响的结果伤害大致相同。"
+      "label": "旧版游戏努力值",
+      "tooltip": "在旧版游戏中显示努力值，允许你为每个宝可梦编辑它们。<br /><br />一些设置（尤其是在随机对战中）可能会为某些状态指定 0 努力值，这可能有助于你了解。<br /><br />尽管在第三世代（ADV）中引入，努力值在技术上存在于之前的旧版游戏中，通常称为<em>能力经验值</em>。由于伤害公式中的四舍五入效应，这个旧系统和现代的努力值影响的结果伤害大致相同。"
     },
 
     "lockUsedTera": {
-      "label": "太晶化后锁定 太晶化按钮",
-      "tooltip": "一旦玩家使用了招式表中的<em>太晶化</em>切换按钮，就会锁定该按钮，防止所有玩家的宝可梦在战斗结束之前手动切换。<br /><br />这可能有助于记住玩家是否仍能够进行太晶化战术。<br /><br />在不支持太晶化的规则或已结束的战斗中无效。"
+      "label": "太晶化后锁定按钮",
+      "tooltip": "一旦玩家使用了招式表中的<em>太晶化</em>切换按钮，就会锁定该按钮，防止所有宝可梦在对战结束前手动切换。<br /><br />这可能有助于记住玩家是否仍能够进行太晶化。<br /><br />在不支持太晶化的规则或已结束的对战中无效。"
     },
 
     "showAllOptions": {
       "label": "显示非法特性和招式",
-      "tooltip": "允许您在OU和随机对战等合法锁定的规则中选择所有可能的特性和招式。"
+      "tooltip": "允许在 OU 和随机对战等合法锁定的规则中选择所有可能的特性和招式。"
     },
 
     "expandFieldControls": {
-      "label": "额外的场地状态控件",
-      "tooltip": "用于$t(common:products.calcdex_other)，显示额外的场地状态控件，例如 <em>隐形岩</em> 和 <em>撒菱</em>，这些控件通常在战斗中会被隐藏。"
+      "label": "显示额外场地状态",
+      "tooltip": "显示额外的场地状态控制选项，如<em>隐形岩</em>和<em>撒菱</em>，这些选项通常在对战中会被隐藏。"
     },
 
     "nhkoLabels": {
-      "label": "Guaranteed NHKO Labels"
+      "label": "显示必杀回合数标签"
     },
 
     "nhkoColors": {
-      "label": "NHKO Hexadecimal Colors"
+      "label": "必杀回合数颜色代码"
     }
   },
 
   "honkdex": {
     "visuallyEnabled": {
-      "label": "允许HonkDex",
-      "tooltip": "启用<em>$t(common:products.honkdex_one)</em>，一种战斗外的$t(common:products.calcdex_one)。您可以在$t(common:products.hellodex_one)中查看和编辑先前保存的计算（称为<em>$t(common:products.honk_other)</em>）。<br /><br />禁用此功能将仅隐藏$t(common:products.honkdex_one)功能，任何已保存的$t(common:products.honk_other)将保留在您的浏览器存储中供$t(common:products.showdown)使用。"
+      "label": "启用 HonkDex",
+      "tooltip": "启用<em>$t(common:products.honkdex_one)</em>，一个对战外的伤害计算器。你可以在 $t(common:products.hellodex_one) 中查看和编辑之前保存的计算（称为<em>$t(common:products.honk_other)</em>）。<br /><br />禁用此功能只会隐藏 $t(common:products.honkdex_one) 功能，已保存的计算仍会保留在浏览器存储中供 $t(common:products.showdown) 使用。"
     },
 
     "showAllFormats": {
       "label": "显示所有随机和自定义赛制",
-      "tooltip": "允许在当前世代可用的情况下，随机和自定义赛制在规则下拉列表中显示。"
+      "tooltip": "在当前世代可用的情况下，允许随机和自定义赛制在规则下拉列表中显示。"
     },
 
     "alwaysEditTypes": {
-      "label": "始终编辑属性",
-      "tooltip": "无论选择何种对战规则，都允许在$t(common:products.honkdex_one)中编辑宝可梦的属性。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.editPokemonTypes.label)</em> $t(common:products.calcdex_one) 设置。"
+      "label": "始终允许编辑属性",
+      "tooltip": "无论选择何种对战规则，都允许编辑宝可梦的属性。<br /><br />禁用此功能将恢复为已配置的<em>编辑宝可梦属性</em>设置。"
     },
 
     "alwaysEditMoves": {
-      "label": "始终编辑招式",
-      "tooltip": "无论选择何种对战规则，都允许访问招式编辑器。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.showMoveEditor.label)</em> $t(common:products.calcdex_one) 设置。请参阅上述设置以了解更多关于招式编辑器的信息。"
+      "label": "始终允许编辑招式",
+      "tooltip": "无论选择何种对战规则，都允许访问招式编辑器。<br /><br />禁用此功能将恢复为已配置的<em>显示招式编辑器</em>设置。"
     },
+
     "alwaysShowGenetics": {
-      "label": "始终显示属性",
-      "tooltip": "始终在宝可梦的属性表中显示$t(pokedex:stats.base_other.0)、$t(pokedex:stats.ivs_other.1)和$t(pokedex:stats.evs_other.1)。除非启用了<em>$t(calcdex.showLegacyEvs.label)</em> $t(common:products.calcdex_one) 设置，否则$t(pokedex:stats.evs_other.1)仍可能在旧版世代中隐藏。<br /><br />禁用此功能将恢复为已配置的<em>$t(calcdex.showAuthGenetics.label)</em>和<em>$t(calcdex.showPlayerGenetics.label)</em> $t(common:products.calcdex_one) 设置。"
+      "label": "始终显示数值",
+      "tooltip": "始终显示宝可梦的种族值、个体值和努力值。除非启用了<em>旧版游戏努力值</em>设置，否则努力值可能在旧版世代中隐藏。<br /><br />禁用此功能将恢复为已配置的显示遗传信息设置。"
     }
   },
 
   "showdown": {
     "autoAcceptSheets": {
-      "label": "接受公开队伍表请求",
-      "tooltip": "立即接受公开队伍表（OTS）的请求，通常是VGC规则。"
+      "label": "自动接受公开队伍表",
+      "tooltip": "自动接受公开队伍表（OTS）请求，通常用于 VGC 规则。"
     }
   }
 }

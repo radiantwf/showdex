@@ -41,7 +41,7 @@
     "bpunch": "子弹拳",
     "ccombat": "近身战",
     "cmind": "冥想",
-    "ddance": "龙舞",
+    "ddance": "龙之舞",
     "dropa": "$t(pokedex:moveAliases.dmeteor)",
     "dmeteor": "流星群",
     "epower": "大地之力",
@@ -52,17 +52,17 @@
     "hpdark": "觉醒力量-恶",
     "hpdragon": "觉醒力量-龙",
     "hpelectric": "觉醒力量-电",
-    "hpfairy": "觉醒力量-妖",
-    "hpfighting": "觉醒力量-斗",
+    "hpfairy": "觉醒力量-妖精",
+    "hpfighting": "觉醒力量-格斗",
     "hpfire": "觉醒力量-火",
-    "hpflying": "觉醒力量-飞",
-    "hpghost": "觉醒力量-鬼",
+    "hpflying": "觉醒力量-飞行",
+    "hpghost": "觉醒力量-幽灵",
     "hpgrass": "觉醒力量-草",
-    "hpground": "觉醒力量-地",
+    "hpground": "觉醒力量-地面",
     "hpice": "觉醒力量-冰",
     "hppoison": "觉醒力量-毒",
-    "hppsychic": "觉醒力量-超",
-    "hprock": "觉醒力量-岩",
+    "hppsychic": "觉醒力量-超能",
+    "hprock": "觉醒力量-岩石",
     "hpsteel": "觉醒力量-钢",
     "hpwater": "觉醒力量-水",
     "qattack": "电光一闪",
@@ -109,7 +109,7 @@
 
   "species": {
     "nopokemon": "无宝可梦",
-    "missingno": "缺失编号"
+    "missingno": "未知图腾"
   },
 
   "speciesAliases": {
@@ -120,31 +120,31 @@
   },
 
   "stats": {
-    "acc": ["命中", "命中"],
-    "atk": ["物攻", "物攻"],
+    "acc": ["命中率", "命中"],
+    "atk": ["攻击", "攻击"],
     "bp": ["基础威力", "基础威力"],
     "base_one": ["种族值", "种族值"],
     "base_other": ["种族值", "种族值"],
     "bst_one": ["种族值总和", "种族值总和"],
     "bst_other": ["种族值总和", "种族值总和"],
-    "def": ["物防", "物防"],
-    "dvs_one": ["Determinant Value", "DV"],
-    "dvs_other": ["Determinant Values", "DVs"],
-    "eva": ["闪避", "闪避"],
+    "def": ["防御", "防御"],
+    "dvs_one": ["决定值", "DV"],
+    "dvs_other": ["决定值", "DVs"],
+    "eva": ["回避率", "闪避"],
     "evs_one": ["努力值", "努力值"],
     "evs_other": ["努力值", "努力值"],
-    "hp": ["生命", "生命"],
+    "hp": ["体力", "HP"],
     "ivs_one": ["个体值", "个体值"],
     "ivs_other": ["个体值", "个体值"],
     "pri": ["优先度", "优先度"],
     "spa": ["特攻", "特攻"],
-    "spc": ["Special", "SPC"],
+    "spc": ["特殊", "特殊"],
     "spd": ["特防", "特防"],
     "spe": ["速度", "速度"]
   },
 
   "formatAliases": {
-    "nd": "natdex"
+    "nd": "全国图鉴"
   },
 
   "headers": {
@@ -153,89 +153,67 @@
     "abilities": "特性",
     "ag": "AG",
     "all": "$t(common:labels.all)",
-    "belowduu": "Below DUU",
-    "belowpu": "Below PU",
+    "belowduu": "DUU以下",
+    "belowpu": "PU以下",
     "cap": "CAP",
     "caplc": "CAP LC",
-    "capmoves": "CAP Moves",
+    "capmoves": "CAP招式",
     "current": "$t(common:labels.current)",
-    "daily": "Daily",
-    "defense": "Defense",
-    "dou": "双打对战 OU",
-    "dnu": "双打对战 NU",
-    "duber": "双打对战 Ubers",
-    "duu": "双打对战 UU",
-    "favorites": "Favorites",
-    "field": "Field",
+    "daily": "每日",
+    "defense": "防御",
+    "dou": "双打OU",
+    "dnu": "双打NU",
+    "duber": "双打Uber",
+    "duu": "双打UU",
+    "favorites": "收藏",
+    "field": "场地",
     "formes": "形态",
-    "gendoubles": "$t(pokedex:gens.{{gen}}.label) 双打对战",
-    "gensingles": "$t(pokedex:gens.{{gen}}.label) 单打对战",
+    "gendoubles": "$t(pokedex:gens.{{gen}}.label) 双打",
+    "gensingles": "$t(pokedex:gens.{{gen}}.label) 单打",
     "hiddenability": "隐藏特性",
     "hiddenpower": "觉醒力量",
-    "illegalresults": "不合法的",
-    "inherited": "Inherited",
+    "illegalresults": "非法结果",
+    "inherited": "继承",
     "item_one": "道具",
     "item_other": "道具",
     "items": "道具",
-    "lc": "LC",
-    "learnset": "学习面",
-    "legal": "Legal",
+    "lc": "小杯赛",
+    "learnset": "可学会的招式",
+    "legal": "合法",
     "level_one": "等级",
     "level_other": "等级",
-    "maxmoves": "$t(pokedex:ultimates.dmax.2)",
     "move_one": "招式",
     "move_other": "招式",
     "moves": "招式",
-    "mythical": "幻之宝可梦",
-    "nature_one": "性格",
-    "nature_other": "性格",
-    "neutral": "Neutral",
-    "new": "New",
-    "nfesnotinahighertier": "NFEs Not in a Higher Tier",
+    "nature": "性格",
+    "natures": "性格",
     "nu": "NU",
-    "nubl": "NUBL",
-    "offense": "Offense",
-    "other": "$t(common:labels.other)",
     "ou": "OU",
-    "oubytechnicality": "OU by Technicality",
-    "physicalmoves": "Physical Moves",
-    "pokemon": "宝可梦",
-    "pokemonspecificitems": "Pokémon-Specific",
-    "pool": "Pool",
-    "popular": "Popular",
-    "popularitems": "Popular",
-    "pretransform": "Pre-Transform",
     "pu": "PU",
-    "publ": "PUBL",
-    "regular": "Regular",
-    "restrictedlegendary": "Restricted Legendary",
-    "revealedmoves": "Revealed",
     "ru": "RU",
-    "rubl": "RUBL",
-    "sketchedmoves": "Sketched Moves",
-    "situationalabilities": "Situational Abilities",
-    "specialeventability": "Special Event Ability",
+    "situationalabilities": "情境特性",
+    "specialeventability": "活动特性",
     "specialmoves": "特殊招式",
     "spread_one": "分配",
     "spread_other": "分配",
-    "stat_one": "能力",
-    "stat_other": "能力",
+    "stat_one": "能力值",
+    "stat_other": "能力值",
     "teratype_one": "太晶属性",
     "teratype_other": "太晶属性",
     "terrain": "场地",
-    "traced": "Traced",
-    "transformed": "Transformed",
+    "traced": "复制",
+    "transformed": "变身",
     "type_one": "属性",
     "type_other": "属性",
-    "uber": "Ubers",
-    "unviableabilities": "Unviable Abilities",
-    "usage": "Usage",
-    "useless": "Useless",
-    "uselessitems": "Useless",
-    "uselesssketchedmoves": "Useless Sketched Moves",
-    "usuallyuseless": "Usually Useless",
-    "usuallyuselessitems": "Usually Useless",
-    "usuallyuselessmoves": "Usually Useless",
+    "uber": "Uber",
+    "unviableabilities": "不可用特性",
+    "usage": "使用率",
+    "useless": "无用",
+    "uselessitems": "无用道具",
+    "uselesssketchedmoves": "无用写生招式",
+    "usuallyuseless": "通常无用",
+    "usuallyuselessitems": "通常无用道具",
+    "usuallyuselessmoves": "通常无用招式",
     "uu": "UU",
     "uubl": "UUBL",
     "weather": "天气",
@@ -257,36 +235,36 @@
     "ice": ["冰", "冰", "冰", "冰"],
     "normal": ["一般", "一般", "普", "普"],
     "poison": ["毒", "毒", "毒", "毒"],
-    "psychic": ["超能", "超能", "超", "超"],
+    "psychic": ["超能力", "超能力", "超", "超"],
     "rock": ["岩石", "岩石", "岩", "岩"],
     "steel": ["钢", "钢", "钢", "钢"],
-    "stellar": ["星晶", "星晶", "星", "星"],
+    "stellar": ["星", "星", "星", "星"],
     "unknown": ["未知", "???", "???", "???"],
     "water": ["水", "水", "水", "水"]
   },
 
   "effects": {
-    "bestowed": "Bestowed",
+    "bestowed": "赠予",
     "consumed": "混乱",
-    "disturbed": "Disturbed",
-    "eaten": "Eaten",
+    "disturbed": "干扰",
+    "eaten": "已食用",
     "flung": "已投掷",
-    "found": "Found",
-    "frisked": "Frisked",
-    "harvested": "Harvested",
-    "heldup": "Held Up",
-    "incinerated": "Incinerated",
-    "knockedoff": "被拍落",
-    "popped": "Popped",
-    "stolen": "被偷取",
-    "tricked": "被交换"
+    "found": "已发现",
+    "frisked": "已搜查",
+    "harvested": "已收获",
+    "heldup": "已举起",
+    "incinerated": "已焚烧",
+    "knockedoff": "已击落",
+    "popped": "已破裂",
+    "stolen": "已偷取",
+    "tricked": "已交换"
   },
 
   "nonvolatiles": {
-    "ok": ["健康", "OK", "OK"],
+    "ok": ["正常", "正常", "正常"],
     "fnt": ["倒下", "倒下", "倒"],
     "brn": ["烧伤", "烧伤", "烧"],
-    "frz": ["冻结", "冻结", "冻"],
+    "frz": ["冰冻", "冰冻", "冻"],
     "par": ["麻痹", "麻痹", "麻"],
     "psn": ["中毒", "中毒", "毒"],
     "slp": ["睡眠", "睡眠", "睡"],
@@ -298,69 +276,69 @@
   "weather": {
     "hail": {
       "label": "冰雹",
-      "shortDesc": "持续5回合（8回合带冰冷岩石），-6% HP（非$t(pokedex:types.ice.0)，非Ice Body/Magic Guard/Overcoat/Snow Cloak）。"
+      "shortDesc": "持续5回合（冰冷岩石则8回合），每回合损失6%HP（冰属性、特性为冰躯、魔法防守、防尘护目镜、降雪迷彩除外）"
     },
     "harshsunshine": {
       "label": "大日照",
-      "shortDesc": "直到下场，$t(pokedex:types.fire.0) 1.5{{times}}，$t(pokedex:types.water.0) 0{{times}}（非Air Lock/Cloud Nine）。"
+      "shortDesc": "持续到更换，火属性招式威力1.5倍，水属性招式无效（特性为气闭、蓄电除外）"
     },
     "heavyrain": {
       "label": "大雨",
-      "shortDesc": "直到下场，$t(pokedex:types.water.0) 1.5{{times}}，$t(pokedex:types.fire.0) 0{{times}}（非Air Lock/Cloud Nine）。"
+      "shortDesc": "持续到更换，水属性招式威力1.5倍，火属性招式无效（特性为气闭、蓄电除外）"
     },
     "rain": {
       "label": "下雨",
-      "shortDesc": "持续5回合（8回合带潮湿岩石），$t(pokedex:types.water.0) 1.5{{times}}，$t(pokedex:types.fire.0) 0.5{{times}}。"
+      "shortDesc": "持续5回合（潮湿岩石则8回合），水属性招式威力1.5倍，火属性招式威力0.5倍"
     },
     "sand": {
-      "label": "沙尘暴",
-      "shortDesc": "持续5回合（8回合带沙沙岩石），$t(pokedex:stats.spd.1) 1.5{{times}}（仅$t(pokedex:types.rock.0)），-6% $t(pokedex:stats.hp.1)（非$t(pokedex:types.ground.0)/$t(pokedex:types.rock.0)/$t(pokedex:types.steel.0)，非Magic Guard/Overcoat/Sand Force/Sand Rush/Sand Veil）。"
+      "label": "沙暴",
+      "shortDesc": "持续5回合（沙沙岩石则8回合），岩石属性特防1.5倍，每回合损失6%HP（地面、岩石、钢属性，特性为魔法防守、防尘护目镜、扬沙、沙奔、扬沙瞬除外）"
     },
     "snow": {
       "label": "下雪",
-      "shortDesc": "持续5回合（8回合带冰冷岩石），$t(pokedex:stats.def.1) 1.5{{times}}（仅$t(pokedex:types.ice.0)）。"
+      "shortDesc": "持续5回合（冰冷岩石则8回合），冰属性防御1.5倍"
     },
     "strongwinds": {
-      "label": "乱流",
-      "shortDesc": "直到下场，没有$t(pokedex:types.flying.0)弱点。"
+      "label": "强风",
+      "shortDesc": "持续到更换，飞行属性弱点无效"
     },
     "sun": {
-      "label": "大晴天",
-      "shortDesc": "持续5回合（8回合带炽热岩石），$t(pokedex:types.fire.0) 1.5{{times}}，$t(pokedex:types.water.0) 0.5{{times}}。"
+      "label": "晴天",
+      "shortDesc": "持续5回合（炽热岩石则8回合），火属性招式威力1.5倍，水属性招式威力0.5倍"
     }
   },
 
   "terrain": {
     "electric": {
       "label": "电气场地",
-      "shortDesc": "持续5回合，$t(pokedex:types.electric.0) 1.3{{times}} (地面上的宝可梦)，不会陷入异常瞌睡、睡眠状态。"
+      "shortDesc": "持续5回合，接地宝可梦的电属性招式威力1.3倍，免疫催眠"
     },
     "grassy": {
       "label": "青草场地",
-      "shortDesc": "持续5回合，$t(pokedex:types.grass.0) 1.3{{times}} (地面上的宝可梦)，重踏/地震/震级 0.5{{times}}，+6% $t(pokedex:stats.hp.1)。"
+      "shortDesc": "持续5回合，接地宝可梦的草属性招式威力1.3倍，重踏/地震/震级威力减半，每回合回复6%HP"
     },
     "misty": {
       "label": "薄雾场地",
-      "shortDesc": "持续5回合，$t(pokedex:types.dragon.0) 0.5{{times}} (地面上的宝可梦)，不会陷入异常状态。"
+      "shortDesc": "持续5回合，接地宝可梦受到的龙属性招式威力减半，免疫异常状态"
     },
     "psychic": {
       "label": "精神场地",
-      "shortDesc": "持续5回合，$t(pokedex:types.psychic.0) 1.3{{times}} (地面上的宝可梦)，无法对对手使出先制技能。"
+      "shortDesc": "持续5回合，接地宝可梦的超能力属性招式威力1.3倍，免疫先制招式"
     }
   },
 
   "ultimates": {
-    "gmax": ["超极巨化", "超极巨化", "超极巨化"],
-    "dmax": ["极巨化", "极巨化", "极巨化"],
-    "mega": ["Mega-进化", "Mega-进化", "Mega"],
+    "gmax": ["超极巨化", "超极巨化", "超极巨"],
+    "dmax": ["极巨化", "极巨化", "极巨"],
+    "mega": ["超进化", "超进化", "超进化"],
     "tera": ["太晶化", "太晶化", "太晶"],
-    "z": ["Z-Power", "Z-Power", "Z"]
+    "z": ["Z招式", "Z招式", "Z"]
   },
 
   "gens": {
     "rb": {
       "label": "RBY",
-      "shortDesc": "红/蓝/黄"
+      "shortDesc": "红/绿/蓝/黄"
     },
     "gs": {
       "label": "GSC",
@@ -380,11 +358,11 @@
     },
     "xy": {
       "label": "X/Y",
-      "shortDesc": "X/Y + Ω红/α蓝"
+      "shortDesc": "X/Y + 终极红宝石/始源蓝宝石"
     },
     "sm": {
       "label": "S/M",
-      "shortDesc": "太阳/月亮 + 究极之月/究极之日 + Let's Go, 皮卡丘/伊布"
+      "shortDesc": "日/月 + 究极日/月 + Let's Go 皮卡丘/伊布"
     },
     "ss": {
       "label": "S/S",
